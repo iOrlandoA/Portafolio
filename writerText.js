@@ -1,24 +1,25 @@
+const html = document.getElementById("welcomeDescription");
 
 
 
-document.addEventListener("DOMContentLoaded", function() {
-    const text = "Un estudiante altamente comprometido  "+
-                "con deseos de aprender,  empezar a trabajar, "+
-                "adquirir nuevas habilidades y experiencia profesional.";
-  
-    const textContainer = document.getElementById("text");
-    let index = 0;
+window.addEventListener("load", function() {
+  writeText();
+    
+});
+
+const writeText=()=>{
+  const text = html.textContent;
+  const textContainer = document.getElementById("text");
+  textContainer.textContent= "";
+  let index = 0;
 
   function typeText() {
     if (index < text.length) {
         textContainer.textContent += text.charAt(index);
         index++;
-        setTimeout(typeText, 25); 
+        setTimeout(typeText, 10); 
         }
     }
   typeText();
+}
 
-  
-  
-    
-  });

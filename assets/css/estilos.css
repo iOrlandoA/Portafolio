@@ -166,14 +166,20 @@ footer{
 }
 
 
-
-  
-  
-
 @media (max-width: 1700px) {
+
+    .dos{
+        height: auto;
+        padding: 0 10px 20px 20px;
+
+    }
+    .tres{
+        height: auto;
+    }
+
     .proyectos{
         flex-direction: column;
-        width: 600px;
+        width: 100%;
         align-items: center;
         justify-content: space-between;
         padding-bottom: 20px;
@@ -182,8 +188,8 @@ footer{
         width: 80%;
         margin-top: 20px;
     }
-
 }
+
 @media (max-width: 1000px) {
     .caja-central{
         width: 90%;
@@ -195,22 +201,19 @@ footer{
         height: 50%;
     }
     .caja-presentacion{
-        width: 100%;
+        width: 92%;
         height: 50%;
         align-items: flex-start;
+        padding-right: 50px;
+    }
+    .caja-presentacion p{
+        margin-right: 40px;
     }
 
     .aptitudes{
         width: auto;
     }
-    .dos{
-        height: auto;
-        padding: 0 10px 20px 20px;
-
-    }
-    .tres{
-        height: auto;
-    }
+   
 
     .red-social{
         margin: 0 10px 0 10px;
@@ -219,15 +222,5 @@ footer{
         height: 40px;
     }
 
-    .proyectos{
-        flex-direction: column;
-        width: 100%;
-        align-items: center;
-        justify-content: space-between;
-        padding-bottom: 20px;
-    }
-    .card{
-        width: 80%;
-        margin-top: 20px;
-    }
+    
 }

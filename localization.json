@@ -1,0 +1,89 @@
+{
+    "texts": [
+      {
+        "id": "welcomeTitle",
+        "languages": {
+          "spanish": "Hola Soy Orlando",
+          "english": "Hello, I'm Orlando"
+        }
+      },
+      {
+        "id": "welcomeDescription",
+        "languages": {
+          "spanish": "Un estudiante altamente comprometido con deseos de aprender, empezar a trabajar, adquirir nuevas habilidades y experiencia profesional.",
+          "english": "A highly committed student with a desire to learn, start working, acquire new skills, and gain professional experience."
+        }
+      },
+      {
+        "id": "aboutMeTitle",
+        "languages": {
+          "spanish": "Sobre mí",
+          "english": "About Me"
+        }
+      },
+      {
+        "id": "aboutMeDescription",
+        "languages": {
+          "spanish": "Soy un estudiante de Informatica Empresarial en la Universidad de Costa Rica, en la cual he llegado a desarrollar diferentes proyectos de mi Portafolio. También he tomado algunos cursos externos a la Universidad, para desarrollar mi conocimiento en la plataforma de Udemy. Soy un apacionado de la Informatica y la programación siempre paso buscando temas nuevos y me gusta mucho el ambito del FrontEnd y la Cyberseguridad. Poseo experiencia en diversos ambitos y lenguajes como: JavaScript, Java, HTML, CSS, React, Ruby On Rails, SQL, Postgresql. La cúal he obtenido y mejorado gracias a una practica Empresarial en la que estoy a día de hoy.",
+          "english": "I am a student of Business Informatics at the University of Costa Rica, where I have developed various projects for my Portfolio. I have also taken external courses to the University to develop my knowledge on the Udemy platform. I am passionate about Informatics and programming; I am always looking for new topics, and I particularly enjoy the FrontEnd and Cybersecurity fields. I have experience in various areas and languages such as JavaScript, Java, HTML, CSS, React, Ruby On Rails, SQL, and Postgresql, which I have obtained and improved through an internship I am currently engaged in."
+        }
+      },
+      {
+        "id": "skillsTitle",
+        "languages": {
+          "spanish": "Aptitudes",
+          "english": "Skills"
+        }
+      },
+      {
+        "id": "skillsDescription",
+        "languages": {
+          "spanish": "Estas son algunas de las tecnologías de las que tengo conocimientos",
+          "english": "These are some of the technologies I have knowledge in"
+        }
+      },
+      {
+        "id": "courseTitle",
+        "languages": {
+          "spanish": "Cursos realizados",
+          "english": "Courses Completed"
+        }
+      },
+      {
+        "id": "proyectsTitle",
+        "languages": {
+          "spanish": "Mis Proyectos",
+          "english": "My Projects"
+        }
+      },
+      {
+        "id": "proyectTitle1",
+        "languages": {
+          "spanish": "Sistema de Gestion Financiera Ganadera",
+          "english": "Livestock Financial Management System"
+        }
+      },
+      {
+        "id": "proyectDes1",
+        "languages": {
+          "spanish": "Sistema generado para una empresa ganadera, en la cual fui lider del proyecto, con 3 compañeros más. Maneje metodología de SCRUM utilizando Trello para el desarrollo y manejo de dos equipos en Front y Back End. Desarrolle gran parte del FrontEnd en React y estuve muy presente en el desarrollo de las tareas de BackEnd en Ruby On Rails.",
+          "english": "System generated for a livestock company, where I was the project leader along with 3 other colleagues. I used SCRUM methodology, utilizing Trello for the development and management of two teams in Front and Back End. I developed a significant portion of the FrontEnd in React and was actively involved in the development of BackEnd tasks using Ruby On Rails."
+        }
+      },
+      {
+        "id": "proyectTitle2",
+        "languages": {
+          "spanish": "SpaceInvaders",
+          "english": "Space Invaders"
+        }
+      },
+      {
+        "id": "proyectDes2",
+        "languages": {
+          "spanish": "Pequeño proyecto de SpaceInvaders como primer proyecto grande al que dedique mucho tiempo en Java.",
+          "english": "Small Space Invaders project as my first major project that I dedicated a lot of time to in Java."
+        }
+      }
+    ]
+  }
+  

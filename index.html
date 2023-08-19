@@ -16,13 +16,13 @@
     <link rel="stylesheet" href="assets/css/animatedButton.css">
 </head>
 
-<style>
-   
+<style>  
 </style>
 
 <body>
     <header>
         <h3> Orlando Aguilar Peralta </h3>
+        <input class="animated-button" id="buttonLanguage" type="button" value="EN" style="margin-left: auto; margin-right: 20px;"/>
     </header>
     <section class="uno">
         <div class="caja-central">
@@ -31,9 +31,10 @@
             </div>
             <div class="caja-presentacion">
                 <div>    
-                    <h1> Hola Soy Orlando</h1>
+                    <h1 id="welcomeTitle"> </h1>
                     <div>
-                        <div class="typewriter">
+                        <p id="welcomeDescription" style="display: none;">Un estudiante altamente comprometido con deseos de aprender,  empezar a trabajar, adquirir nuevas habilidades y experiencia profesional. </p>
+                        <div >
                             <p id="text"> </p>
                         </div>
 
@@ -43,19 +44,14 @@
             </div>
         </div>
     </section>
-
     <section class="dos">
-        <h2>Sobre mí</h2>
-        <p>
-            Soy un estudiante de Informatica Empresarial en la Universidad de Costa Rica, en la cual he llegado a desarrollar diferentes proyectos de mi Portafolio.
-            También he tomado algunos cursos externos a la Universidad, para desarrollar mi conocimiento en la plataforma de Udemy.  
-            Soy un apacionado de la Informatica y la programación siempre paso buscando temas nuevos y me gusta mucho 
-            el ambito del FrontEnd y la Cyberseguridad. Poseo experiencia en diversos ambitos y lenguajes como: JavaScript, Java, HTML, CSS, React, Ruby On Rails, SQL, Postgresql.
-            La cúal he obtenido y mejorado gracias a una practica Empresarial en la que estoy a día de hoy.
+        <h2 id="aboutMeTitle"></h2>
+        <p id="aboutMeDescription">
+
         </p>
-        <h2>Aptitudes</h2>
-        <p>
-            Estas son algunas de las tecnologías de las que tengo conocimientos.
+        <h2 id="skillsTitle"></h2>
+        <p id="skillsDescription">
+            
         </p>
         <div class="aptitudes">
             <div class="tech-list">
@@ -69,7 +65,7 @@
                 <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.svg" class="tech" alt="Git Logo">
             </div>
         </div>
-        <h2>Cursos realizados</h2>
+        <h2 id="courseTitle"></h2>
         <ul>
             <li>Master en Frameworks JavaScript: Aprende Angular, React, Vue  <a href="https://www.udemy.com/course/master-en-frameworks-javascript-aprende-angular-react-vue-js/learn/lecture/15541250?start=0#overview">Ver</a></li>
 
@@ -77,19 +73,13 @@
     </section>
     <section class="tres">
 
-
-
-        
-       
-          
-
-        <h2>Mis Proyectos</h2>
+        <h2 id="proyectsTitle"></h2>
         <div class="proyectos">
             
             <div class="card"> 
                 
                 <a href="https://youtu.be/Vi9hFraKHqw" target="_blank" >                    
-                    <h3>Sistema de Gestion Financiera Ganadera</h3>              
+                    <h3 id="proyectTitle1"></h3>              
                 </a>
 
                 <div class="image-panel">
@@ -106,10 +96,8 @@
                     </div>
                     <button class="next-btn"><img src="assets/images/arrow-right.png" alt="Siguiente"></button>
                 </div>
-                <p>
-                    Sistema generado para una empresa ganadera, en la cual fui lider del proyecto, con 3 compañeros más.
-                    Maneje metodología de SCRUM utilizando Trello para el desarrollo y manejo de dos equipos en Front y Back End.
-                    Desarrolle gran parte del FrontEnd en React y estuve muy presente en el desarrollo de las tareas de BackEnd en Ruby On Rails.
+                <p id="proyectDes1">
+                    
                 </p>
                 <div class="containerButtons">
                     <a href="https://github.com/iOrlandoA/proyecto-SGFG" target="_blank" class="animated-button">FrontEnd</a> 
@@ -120,7 +108,7 @@
             </div>
 
             <div class="card">
-                <h3>SpaceInvaders</h3>
+                <h3 id="proyectTitle2"></h3>
                 <div class="image-panel">
                     <button class="prev-btn"><img src="assets/images/arrow-left.png" alt="Anterior"></button>
                     <div class="image-slider">
@@ -130,8 +118,8 @@
                     </div>
                     <button class="next-btn"><img src="assets/images/arrow-right.png" alt="Siguiente"></button>
                 </div>
-                <p>
-                    Pequeño proyecto de Space SpaceInvaders como primer proyecto grande al que dedique mucho tiempo en Java.
+                <p id="proyectDes2">
+                    
                 </p>
                 <div class="containerButtons">
                     <a href="https://github.com/iOrlandoA/SpaceInvaders" target="_blank" class="animated-button">GitHub</a>
@@ -166,8 +154,10 @@
             <p style="padding-top: 20px;">Orlando ©</a></p>
     </footer>
     <script src="funcions.js"></script>
-    <script src="writerText.js"></script>
     <script src="imagePanels.js"></script>
+    <script src="switchLanguage.js"></script>
+    <script src="writerText.js"></script>
+    
 </body>
 
 </html>
