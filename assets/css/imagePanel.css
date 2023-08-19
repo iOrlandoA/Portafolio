@@ -1,0 +1,43 @@
+.image-panel {
+    width: 300px;
+    overflow: hidden;
+    position:relative;
+    margin: 0 auto;
+    
+    
+  }
+  
+  .image-slider {
+    display: flex;
+    transition: transform 0.5s;
+  }
+  
+  .image-slider img {
+    width: 300px; /* Ancho de imagen */
+    height: 170px; /* Alto de imagen */
+  }
+  
+  .prev-btn,
+  .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    background: none;
+    border: none;
+    z-index: 1;
+  }
+  
+  .prev-btn {
+    left: 10px;
+  }
+  
+  .next-btn {
+    right: 10px;
+  }
+  
+  .prev-btn img,
+  .next-btn img {
+    width: 24px;
+    height: 24px;
+  }

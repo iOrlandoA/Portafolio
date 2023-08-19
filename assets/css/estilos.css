@@ -1,14 +1,16 @@
 body{
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Courier New", monospace;
 }
 header{
     height: 65px;
-    background-color: #546A7B;
+    
     color: #FDFDFF;
     display: flex;
     align-items: center;
     padding-left: 25px;
+    background-image: url('../images/spaceImg.png');
+    border-bottom: 2px solid #071108;
 }
 .cara{
     border-radius: 500px;
@@ -113,7 +115,7 @@ header{
 }
 .card{
     text-align: center;
-    width: 30%;
+    width: 40%;
     border: solid #F2F2F2 1px;
     border-radius: 10px;
     padding: 10px;
@@ -148,68 +150,9 @@ footer{
     display: flex;
     justify-content: center;
 }
-.image-panel {
-    width: 300px;
-    overflow: hidden;
-    position:relative;
-    margin: 0 auto;
-    
-    
-  }
-  
-  .image-slider {
-    display: flex;
-    transition: transform 0.5s;
-  }
-  
-  .image-slider img {
-    width: 300px; /* Ancho de imagen */
-    height: 170px; /* Alto de imagen */
-  }
-  
-  .prev-btn,
-  .next-btn {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    cursor: pointer;
-    background: none;
-    border: none;
-    z-index: 1;
-  }
-  
-  .prev-btn {
-    left: 10px;
-  }
-  
-  .next-btn {
-    right: 10px;
-  }
-  
-  .prev-btn img,
-  .next-btn img {
-    width: 24px;
-    height: 24px;
-  }
 
 
-  .animated-button {
-    
-    padding: 10px 20px;
-    background-color: #546A7B;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    margin-left: 20px;
-    text-decoration: none;
-  }
-  
-  .animated-button:hover {
-    background-color: #62929E;
-  }
+
   
   
 

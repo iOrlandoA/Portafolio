@@ -1,0 +1,21 @@
+.typewriter {
+
+  
+  font-size: 14px;
+  white-space: pre-line;
+  overflow: hidden;
+  width: 400px;
+}
+  
+  
+  .typewriter p {
+    display: inline-block;
+    border-right: 2px solid transparent;
+    animation: typing 3s steps(40) forwards, blink-caret 0.75s step-end infinite;
+  }
+  
+  
+  
+  
+  
+  
