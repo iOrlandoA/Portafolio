@@ -94,8 +94,9 @@ header{
 }
 
 .tech{
-    height: 40px;
+    height: 50px;
     padding-top: 20px;
+    margin-left: 15px;
 }
 
 .tres{
@@ -213,6 +214,9 @@ footer{
 
     .red-social{
         margin: 0 10px 0 10px;
+    }
+    .tech{
+        height: 40px;
     }
 
     .proyectos{
