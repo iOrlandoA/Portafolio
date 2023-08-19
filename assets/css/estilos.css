@@ -155,7 +155,7 @@ footer{
     justify-content: flex-start;
     align-items: center;
     color: #F2F2F2;
-    height: 250px;
+    height: 170px;
 }
 
 .contacto{
@@ -204,7 +204,7 @@ footer{
     }
     .dos{
         height: auto;
-        padding: 0 10px 10px 10px;
+        padding: 0 10px 20px 20px;
 
     }
     .tres{
