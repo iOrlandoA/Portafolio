@@ -1,4 +1,13 @@
 
+.containerButtons {
+  margin-top: auto;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  text-align: right;
+}
+
+
+
 .animated-button {
     
     padding: 10px 20px;

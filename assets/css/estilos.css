@@ -94,7 +94,7 @@ header{
 }
 
 .tech{
-    height: 50px;
+    height: 40px;
     padding-top: 20px;
 }
 
@@ -113,18 +113,32 @@ header{
     justify-content: space-between;
 }
 .card{
+    display: flex;
+    flex-direction: column;
     text-align: center;
     width: 40%;
-    border: solid #F2F2F2 1px;
     border-radius: 10px;
     padding: 10px;
     padding-bottom: 20px;
+    background-color: #071108;
+    -webkit-box-shadow: 10px 10px 40px 4px rgba(71,65,71,1);
+    -moz-box-shadow: 10px 10px 40px 4px rgba(71,65,71,1);
+    box-shadow: 10px 10px 40px 4px rgba(71,65,71,1);
+
 }
 
-
+.card p{
+    font-size: 14px;
+    text-align: left;
+    margin: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 
 .card a, footer a {
     color: white;
+    text-decoration: none;
+    padding-top: 10px;
 }
 
 .red-social{
