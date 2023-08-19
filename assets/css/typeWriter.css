@@ -1,19 +1,18 @@
 .typewriter {
-
-  
-  font-size: 14px;
+  margin-top: -30px;
+  font-size: 15px;
   white-space: pre-line;
   overflow: hidden;
-  width: 400px;
+  width: 80%;
 }
   
   
-  .typewriter p {
-    display: inline-block;
-    border-right: 2px solid transparent;
-    animation: typing 3s steps(40) forwards, blink-caret 0.75s step-end infinite;
-  }
-  
+.typewriter p {
+  display: inline-block;
+  border-right: 2px solid transparent;
+  animation: typing 3s steps(40) forwards, blink-caret 0.75s step-end infinite;
+}
+
   
   
   
