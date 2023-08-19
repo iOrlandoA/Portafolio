@@ -38,7 +38,7 @@ const buttonFunction =(e)=>{
 
   setTimeout(function() {
     isExecuting = false;
-  }, 2000);  
+  }, 3000);  
 
   
 }

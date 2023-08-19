@@ -3,7 +3,10 @@ const html = document.getElementById("welcomeDescription");
 
 
 window.addEventListener("load", function() {
+  isExecuting=true;
   writeText();
+  isExecuting=false;
+  
     
 });
 
@@ -21,5 +24,7 @@ const writeText=()=>{
         }
     }
   typeText();
+  
+
 }
 
