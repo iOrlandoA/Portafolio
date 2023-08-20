@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
     .then(data => {
         localizationMessages= data.texts;    
         fillTexts();
+        isExecuting=true;
     }
     ).catch(error => console.error(error));
 
