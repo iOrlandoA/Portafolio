@@ -83,6 +83,13 @@
           "spanish": "Pequeño proyecto de SpaceInvaders como primer proyecto grande al que dedique mucho tiempo en Java.",
           "english": "Small Space Invaders project as my first major project that I dedicated a lot of time to in Java."
         }
+      },
+      {
+        "id": "contactTitle",
+        "languages": {
+          "spanish": "Contactame",
+          "english": "Contact me"
+        }
       }
     ]
   }
