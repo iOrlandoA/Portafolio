@@ -10,7 +10,7 @@ const writeText=()=>{
     if (index < text.length) {
         textContainer.textContent += text.charAt(index);
         index++;
-        setTimeout(typeText, 10); 
+        setTimeout(typeText, 5); 
         }
     }
   typeText();
