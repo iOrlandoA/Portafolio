@@ -1,5 +1,5 @@
 .image-panel {
-    width: 300px;
+    width: 400px;
     overflow: hidden;
     position:relative;
     margin: 0 auto;
@@ -12,8 +12,8 @@
   }
   
   .image-slider img {
-    width: 300px; /* Ancho de imagen */
-    height: 170px; /* Alto de imagen */
+    width: 400px; /* Ancho de imagen */
+    height: 225px; /* Alto de imagen */
   }
   
   .prev-btn,
@@ -39,4 +39,41 @@
   .next-btn img {
     width: 24px;
     height: 24px;
+  }
+
+  @media (max-width: 1700px) {
+    .image-panel {
+      width: 500px;
+    }
+    .image-slider img {
+      width: 500px; /* Ancho de imagen */
+      height: 282px; /* Alto de imagen */
+
+    }
+
+  }
+
+  @media (max-width: 700px) {
+    .image-panel {
+      width: 400px;
+    }
+    .image-slider img {
+      width: 400px; /* Ancho de imagen */
+      height: 225px; /* Alto de imagen */
+
+    }
+
+  }
+
+  @media (max-width: 550px) {
+
+    .image-panel {
+      width: 300px;
+    }
+    .image-slider img {
+      width: 300px; /* Ancho de imagen */
+      height: 170px; /* Alto de imagen */
+
+    }
+
   }
