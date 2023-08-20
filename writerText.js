@@ -1,15 +1,5 @@
 const html = document.getElementById("welcomeDescription");
 
-
-
-window.addEventListener("load", function() {
-  
-  writeText();
-  isExecuting=false;
-  
-    
-});
-
 const writeText=()=>{
   const text = html.textContent;
   const textContainer = document.getElementById("text");

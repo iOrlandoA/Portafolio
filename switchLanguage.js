@@ -10,11 +10,13 @@ document.addEventListener("DOMContentLoaded", function() {
         localizationMessages= data.texts;    
         fillTexts();
         isExecuting=true;
+        writeText();
+        setTimeout(function() {
+            isExecuting = false;
+        }, 3000);  
     }
     ).catch(error => console.error(error));
 
-
-   
 });
 
 function fillTexts() {
@@ -39,7 +41,7 @@ const buttonFunction =(e)=>{
 
   setTimeout(function() {
     isExecuting = false;
-  }, 4000);  
+  }, 3000);  
 
   
 }
