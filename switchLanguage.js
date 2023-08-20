@@ -39,7 +39,7 @@ const buttonFunction =(e)=>{
 
   setTimeout(function() {
     isExecuting = false;
-  }, 3000);  
+  }, 4000);  
 
   
 }
