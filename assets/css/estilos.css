@@ -54,7 +54,7 @@ header{
     justify-content: center;
     align-items: center;
     width: 40%;
-    background-color: #071108;
+    background-color: #171717;
 }
 .caja-presentacion{
     display: flex;
@@ -80,8 +80,12 @@ header{
     justify-content: center;
     align-items: center;
     color: #303030;
-    padding-left: 20%;
-    padding-right: 20%;
+
+}
+
+.dos p{
+    padding-left: 10%;
+    padding-right: 10%;
 }
 .aptitudes{
     width: 50%;
@@ -121,7 +125,7 @@ header{
     border-radius: 10px;
     padding: 10px;
     padding-bottom: 20px;
-    background-color: #071108;
+    background-color: #171717;
     -webkit-box-shadow: 10px 10px 40px 4px rgba(71,65,71,1);
     -moz-box-shadow: 10px 10px 40px 4px rgba(71,65,71,1);
     box-shadow: 10px 10px 40px 4px rgba(71,65,71,1);
