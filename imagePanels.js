@@ -24,8 +24,7 @@ imagePanels.forEach((panel) => {
   });
 
   function updateSliderPosition() {
-    var imageWidth = imageSlider.parentNode.offsetWidth;
-    const translateValue = -(currentIndex * (imageWidth + margin));
+    const translateValue = -(currentIndex * (imageSlider.clientWidth + margin));
     imageSlider.style.transform = `translateX(${translateValue}px)`;
   }
 

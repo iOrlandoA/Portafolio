@@ -73,5 +73,17 @@
     max-width: 800px  !important;
     min-width: 600px !important;
   }
+
+  @media screen and (max-width: 650px) {
+    .image-container{
+      transform: scale(0.8);
+    }
+  }
+
+  @media screen and (max-width: 650px) {
+    .image-container{
+      transform: scale(0.5);
+    }
+  }
   
 
