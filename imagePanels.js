@@ -32,4 +32,8 @@ imagePanels.forEach((panel) => {
   }
 
   updateSliderPosition();
+
+
+
 });
+
