@@ -64,6 +64,13 @@
         }
       },
       {
+        "id": "proyectTitle3",
+        "languages": {
+          "spanish": "Sistema de Controlador Windows Remoto",
+          "english": "Remote Windows Controller System"
+        }
+      },
+      {
         "id": "proyectDes1",
         "languages": {
           "spanish": "Sistema generado para una empresa ganadera, en la cual fui lider del proyecto, con 3 compañeros más. Maneje metodología de SCRUM utilizando Trello para el desarrollo y manejo de dos equipos en Front y Back End. Desarrolle gran parte del FrontEnd en React y estuve muy presente en el desarrollo de las tareas de BackEnd en Ruby On Rails.",
@@ -79,6 +86,13 @@
       },
       {
         "id": "proyectDes2",
+        "languages": {
+          "spanish": "Pequeño proyecto de SpaceInvaders como primer proyecto grande al que dedique mucho tiempo en Java.",
+          "english": "Small Space Invaders project as my first major project that I dedicated a lot of time to in Java."
+        }
+      },
+      {
+        "id": "proyectDes3",
         "languages": {
           "spanish": "Pequeño proyecto de SpaceInvaders como primer proyecto grande al que dedique mucho tiempo en Java.",
           "english": "Small Space Invaders project as my first major project that I dedicated a lot of time to in Java."

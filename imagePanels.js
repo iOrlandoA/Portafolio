@@ -5,9 +5,10 @@ imagePanels.forEach((panel) => {
   const prevBtn = panel.querySelector('.prev-btn');
   const nextBtn = panel.querySelector('.next-btn');
   const images = imageSlider.querySelectorAll('img');
-
+  
+  
   let currentIndex = 0;
-  const imageWidth = 300;
+  const imageWidth = 500;
   const margin = 0;
 
   prevBtn.addEventListener('click', () => {
@@ -25,7 +26,7 @@ imagePanels.forEach((panel) => {
   });
 
   function updateSliderPosition() {
-    const translateValue = -(currentIndex * (imageWidth + margin));
+    const translateValue = -(currentIndex * (imageSlider.clientWidth + margin));
     imageSlider.style.transform = `translateX(${translateValue}px)`;
   }
 

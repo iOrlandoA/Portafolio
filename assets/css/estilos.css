@@ -101,18 +101,13 @@ header{
 
 .tres{
     background-color: #303030;
-    height: 700px;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
     align-items: center;
     color: #F2F2F2;
 }
-.proyectos{
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-}
+
 .card{
     display: flex;
     flex-direction: column;

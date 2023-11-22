@@ -1,9 +1,9 @@
 .image-panel {
-    width: 400px;
+    width: 600px;
     overflow: hidden;
     position:relative;
     margin: 0 auto;
-    border-radius: 2px;
+    border-radius: 3px;
   }
   
   .image-slider {
@@ -11,10 +11,18 @@
     transition: transform 0.5s;
   }
   
-  .image-slider img {
-    width: 400px; /* Ancho de imagen */
-    height: 225px; /* Alto de imagen */
+  .image-slider img{
+    width: 600px; /* Ancho de imagen */
+    height: 340px; /* Alto de imagen */
   }
+  .frame{
+    width: 600px !important; /* Ancho de imagen */
+    height: 340px !important; /* Alto de imagen */
+  }
+  #player {
+    background-color: white !important;
+  }
+  
   
   .prev-btn,
   .next-btn {
@@ -25,6 +33,13 @@
     background: none;
     border: none;
     z-index: 1;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    padding-top: 4px;
+  }
+  .prev-btn:active, .next-btn:active{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
   }
   
   .prev-btn {
@@ -41,39 +56,22 @@
     height: 24px;
   }
 
-  @media (max-width: 1700px) {
-    .image-panel {
-      width: 500px;
-    }
-    .image-slider img {
-      width: 500px; /* Ancho de imagen */
-      height: 282px; /* Alto de imagen */
 
-    }
-
+  .image-container{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    flex-flow: wrap;
+    margin: 0 auto;
+    align-content: center;
+    padding-bottom: 100px;
+    
   }
-
-  @media (max-width: 700px) {
-    .image-panel {
-      width: 400px;
-    }
-    .image-slider img {
-      width: 400px; /* Ancho de imagen */
-      height: 225px; /* Alto de imagen */
-
-    }
-
+  
+  .item-image {
+    margin: 10px;
+    max-width: 800px  !important;
+    min-width: 600px !important;
   }
+  
 
-  @media (max-width: 550px) {
-
-    .image-panel {
-      width: 300px;
-    }
-    .image-slider img {
-      width: 300px; /* Ancho de imagen */
-      height: 170px; /* Alto de imagen */
-
-    }
-
-  }
