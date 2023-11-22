@@ -5,6 +5,9 @@ imagePanels.forEach((panel) => {
   const prevBtn = panel.querySelector('.prev-btn');
   const nextBtn = panel.querySelector('.next-btn');
   const images = imageSlider.querySelectorAll('img');
+  const iframes = imageSlider.querySelectorAll('iframe');
+  const totalIndex = images.length + (iframes ? iframes.length : 0);
+
   
   let currentIndex = 0;
   const margin = 0;
@@ -17,7 +20,7 @@ imagePanels.forEach((panel) => {
   });
 
   nextBtn.addEventListener('click', () => {
-    if (currentIndex < images.length - 1) {
+    if (currentIndex < totalIndex - 1) {
       currentIndex++;
       updateSliderPosition();
     }
