@@ -71,6 +71,13 @@
         }
       },
       {
+        "id": "proyectTitle4",
+        "languages": {
+          "spanish": "Sistema de Validaciones Automatico y Adaptable JS y PHP",
+          "english": "Automated and Adaptive Validation System JS and PHP"
+        }
+      },
+      {
         "id": "proyectDes1",
         "languages": {
           "spanish": "Sistema generado para una empresa ganadera, en la cual fui lider del proyecto, con 3 compañeros más. Maneje metodología de SCRUM utilizando Trello para el desarrollo y manejo de dos equipos en Front y Back End. Desarrolle gran parte del FrontEnd en React y estuve muy presente en el desarrollo de las tareas de BackEnd en Ruby On Rails.",
