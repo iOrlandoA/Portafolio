@@ -108,8 +108,9 @@
       {
         "id": "proyectDes4",
         "languages": {
-          "spanish": "",
-          "english": ""
+          "spanish": "Este microservicio en JavaScript forma un sistema integral para validar datos antes de su envío al servidor. Se encarga de realizar una validación detallada en el lado del cliente, asegurando la corrección de los datos según una configuración definida en un archivo JSON. Las funciones JS están diseñadas para mapear y validar una variedad de campos de entrada, como tarjetas, contraseñas, botones de radio, opciones de checkbox y tablas dinámicas, proporcionando mensajes de error detallados. Además, se integra con una versión en PHP para realizar una validación adicional en el servidor después de la validación inicial en el lado del cliente. Esto añade una capa de seguridad adicional, garantizando que los datos cumplan con los requisitos antes de ser procesados por completo. Esta combinación de validaciones en el cliente y en el servidor asegura un control exhaustivo y robusto sobre los datos antes de su procesamiento final.",
+          "english": "This JavaScript microservice forms a comprehensive system for validating data before it is sent to the server. It is responsible for performing detailed client-side validation, ensuring the correctness of the data according to a configuration defined in a JSON file. The JS functions are designed to map and validate a variety of input fields, such as cards, passwords, radio buttons, checkbox options and pivot tables, providing detailed error messages. In addition, it integrates with a PHP version to perform additional validation on the server after the initial client-side validation. This adds an additional layer of security, ensuring that the data is compliant before it is fully processed. This combination of client-side and server-side validation ensures thorough and robust control over the data before final processing."
+                  
         }
       },
       {

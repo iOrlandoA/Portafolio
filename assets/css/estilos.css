@@ -74,12 +74,13 @@ header{
 
 .dos{
     background-color: #F2F2F2;
-    height: 700px;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: #303030;
+    padding: 50px;
 
 }
 
@@ -95,13 +96,19 @@ header{
     display: flex;
     justify-content: space-between;
     padding-top: 10px;
-    align-items: center;
+    justify-content: center;
+    width: 80%;
+    flex-flow: wrap;
+    margin: 0 auto;
+    align-content: center;
+    padding-bottom: 100px;
 }
 
 .tech{
     height: 50px;
     padding-top: 20px;
     margin-left: 15px;
+    margin: 40px;
 }
 
 .tres{
@@ -229,4 +236,5 @@ footer{
     .caja-central:hover {
         transform: scale(1.02);
     }
+    
 }
