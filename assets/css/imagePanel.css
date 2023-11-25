@@ -77,15 +77,15 @@
   @media screen and (max-width: 650px) {
     .image-container{
       transform: scale(0.8);
-      margin-top: -150px;
-      margin-bottom: -150px;
+      margin-top: -250px;
+      margin-bottom: -250px;
     }
   }
 
   @media screen and (max-width: 500px) {
     .image-container{
-      margin-top: -400px;
-      margin-bottom: -400px;
+      margin-top: -600px;
+      margin-bottom: -600px;
       transform: scale(0.5);
     }
   }

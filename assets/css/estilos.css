@@ -224,3 +224,9 @@ footer{
 
     
 }
+
+@media (max-width: 350px){
+    .caja-central:hover {
+        transform: scale(1.05);
+    }
+}
