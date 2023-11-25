@@ -285,6 +285,8 @@ footer{
     .card-info{
         width: 90%;
         flex-direction: column;
+        margin: -32px;
+        margin-top: -50px;
     }
     .caja-img{
         width: 100%;
