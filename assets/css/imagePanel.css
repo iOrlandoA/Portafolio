@@ -85,7 +85,9 @@
   @media screen and (max-width: 500px) {
     .image-container{
       transform: scale(0.5)translate(0, -30%);
-      margin-bottom: -1100px;
+    }
+    .tres{
+      height: 1420px;
     }
   }
   
