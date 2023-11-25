@@ -1,5 +1,7 @@
 const html = document.getElementById("welcomeDescription");
 
+
+
 const writeText=()=>{
   const text = html.textContent;
   const textContainer = document.getElementById("text");

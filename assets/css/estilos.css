@@ -89,6 +89,7 @@ header{
 }
 .aptitudes{
     width: 50%;
+    padding-bottom: 50px;
 }
 .tech-list{
     display: flex;

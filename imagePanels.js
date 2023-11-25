@@ -1,4 +1,13 @@
 const imagePanels = document.querySelectorAll('.image-panel');
+const presentacion = document.getElementsByClassName('uno');
+
+
+presentacion[0].addEventListener('click', () => {
+  const elementoObjetivo = document.getElementsByClassName('tres');
+  elementoObjetivo[0].scrollIntoView({ behavior: 'smooth' });
+});
+
+
 
 imagePanels.forEach((panel) => {
   const imageSlider = panel.querySelector('.image-slider');
@@ -32,8 +41,7 @@ imagePanels.forEach((panel) => {
   }
 
   updateSliderPosition();
-
-
-
+  
 });
+
 
