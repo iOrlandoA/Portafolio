@@ -10,7 +10,11 @@ document.addEventListener("DOMContentLoaded", function() {
         localizationMessages= data.texts;    
         fillTexts();
         isExecuting=true;
-        writeText();
+        try {
+            writeText();   
+        } catch (error) {
+            
+        }
         setTimeout(function() {
             isExecuting = false;
         }, 3000);  
@@ -22,10 +26,15 @@ document.addEventListener("DOMContentLoaded", function() {
 function fillTexts() {
 
     localizationMessages.forEach((textData) =>{
-        const element = document.getElementById(textData.id);
-        if (element) {
-            element.textContent = textData.languages[languageSelected];
+        try {
+            const element = document.getElementById(textData.id);
+            if (element) {
+                element.textContent = textData.languages[languageSelected];
+            }
+        } catch (error) {
+            
         }
+        
     });
 }
 
@@ -57,13 +66,17 @@ const changeLanguaje =(e)=>{
         e.target.value = "EN";
         languageSelected = "english";
         fillTexts();
-        writeText();
+        try {
+            writeText();   
+        } catch (error) {}
 
     }else{
         e.target.value = "ES";
         languageSelected = "spanish";
         fillTexts();
-        writeText();
+        try {
+            writeText();   
+        } catch (error) {}
     }
 
 }

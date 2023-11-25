@@ -14,7 +14,7 @@ const writeText=()=>{
         index++;
         setTimeout(typeText, 5); 
         }
-    }
+  }
   typeText();
   
 

@@ -140,7 +140,29 @@
           "spanish": "Master en Frameworks JavaScript: Aprende Angular, React, Vue",
           "english": "Master en Frameworks JavaScript: Aprende Angular, React, Vue"
         }
+      },
+      {
+        "id": "HomeText",
+        "languages": {
+          "spanish": "Inicio",
+          "english": "Home"
+        }
+      },
+      {
+        "id": "ProyectsText",
+        "languages": {
+          "spanish": "Proyectos",
+          "english": "My Projects"
+        }
+      },
+      {
+        "id": "Skills",
+        "languages": {
+          "spanish": "Habilidades",
+          "english": "Skills"
+        }
       }
+
     ]
   }
   
