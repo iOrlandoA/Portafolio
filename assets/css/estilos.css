@@ -78,7 +78,7 @@ header{
 
 .card-info{
     margin: 10px;
-    transform: scale(0.7);
+    transform: scale(0.7)translate(0, -15%);
     width: 45%;
     display: flex;
     flex-direction: row;
