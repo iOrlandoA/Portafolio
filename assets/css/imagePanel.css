@@ -84,8 +84,8 @@
 
   @media screen and (max-width: 500px) {
     .image-container{
-      margin-top: -600px;
-      margin-bottom: -600px;
+      margin-top: -680px;
+      margin-bottom: -680px;
       transform: scale(0.5);
     }
   }
