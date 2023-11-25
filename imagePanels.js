@@ -1,5 +1,5 @@
 const imagePanels = document.querySelectorAll('.image-panel');
-const presentacion = document.getElementsByClassName('uno');
+const presentacion = document.getElementsByClassName('caja-central');
 
 
 presentacion[0].addEventListener('click', () => {

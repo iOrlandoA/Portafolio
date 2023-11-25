@@ -20,7 +20,8 @@ header{
 .uno{
     width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     height: calc(100vh - 65px);
     background-color: #393D3F;
@@ -28,13 +29,13 @@ header{
     /* padding-top: 10%; */
 }
 .caja-central{
-    margin-top: 10%;
-    width: 50%;
+    margin: 50px;
+    width: 800px;
     display: flex;
     flex-direction: row;
     border-radius: 20px;
     overflow: hidden;
-    height: 50%;
+    height: 200px;
     border-radius: 10px;
     transition: transform 0.3s, box-shadow 0.3s;
     
@@ -71,6 +72,55 @@ header{
 .presentacion{
     width: 70%;  
 }
+
+
+
+
+.card-info{
+    margin: 10px;
+    transform: scale(0.7);
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    overflow: hidden;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.card-info:hover {
+    transform: scale(0.71);
+    
+}
+  
+.caja-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    background-color: #FDFDFF;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.caja-text{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 60%;
+    background-color: #f4f4f4;
+    color: #303030;
+    padding-right: 40px;
+    padding-left: 40px;
+
+    
+}
+
 
 .dos{
     background-color: #F2F2F2;
@@ -220,6 +270,9 @@ footer{
     .aptitudes{
         width: auto;
     }
+    .uno{
+        height: auto;
+    }
    
 
     .red-social{
@@ -229,8 +282,26 @@ footer{
         height: 40px;
     }
 
+    .card-info{
+        width: 90%;
+        flex-direction: column;
+    }
+    .caja-img{
+        width: 100%;
+        height: 50%;
+    }
+    .caja-text{
+        height: 50%;
+        width: 92%;
+        align-items: flex-start;
+        padding-right: 50px;
+    }
+
+    
     
 }
+
+
 
 @media (max-width: 350px){
     .caja-central:hover {

@@ -45,8 +45,8 @@
       {
         "id": "courseTitle",
         "languages": {
-          "spanish": "Cursos realizados",
-          "english": "Courses Completed"
+          "spanish": "Educación",
+          "english": "Education"
         }
       },
       {
@@ -118,6 +118,27 @@
         "languages": {
           "spanish": "Contactame",
           "english": "Contact me"
+        }
+      },
+      {
+        "id": "UCRTitle",
+        "languages": {
+          "spanish": "Bachillerato en Informatica Empresarial (TI)",
+          "english": "Bachelor's Degree in Business Informatics (IT)"
+        }
+      },
+      {
+        "id": "UCRDescription",
+        "languages": {
+          "spanish": "Bases de Datos, Manejo de Proyectos, Desarrollo Web, Programación Orientada a Objetos (POO), Redes",
+          "english": "Databases, Project Management, Web Development, Object-Oriented Programming (OOP), Networking"
+        }
+      },
+      {
+        "id": "UdemyCurseMasterFramework",
+        "languages": {
+          "spanish": "Master en Frameworks JavaScript: Aprende Angular, React, Vue",
+          "english": "Master en Frameworks JavaScript: Aprende Angular, React, Vue"
         }
       }
     ]
