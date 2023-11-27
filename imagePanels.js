@@ -1,8 +1,5 @@
 const imagePanels = document.querySelectorAll('.image-panel');
 
-
-
-
 imagePanels.forEach((panel) => {
   const imageSlider = panel.querySelector('.image-slider');
   const prevBtn = panel.querySelector('.prev-btn');

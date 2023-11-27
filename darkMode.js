@@ -10,39 +10,47 @@ const diaBodyBack = "#EEF4ED";
 const nocheCardText = "#F4F4F4";
 const nocheCardBack = "#303030";
 const nocheBodyText = "#F4F4F4";
-const nocheBodyBack = "#1A2322";
+const nocheBodyBack = "#121715";
 
 var darkMode = true;
 
 darkModeBtn.addEventListener("click",()=>{
-  switchDark();
+  switchDark(!darkMode);
 });
 
-const switchDark=()=>{
-  if (darkMode == false){
-    darkMode = true;
-    localStorage.setItem('darkMode', 'false');
+const switchDark=(darkMode)=>{
+  if (darkMode == true){
+    localStorage.setItem('darkMode', true);
     root.style.setProperty('--color-cardTexto', nocheCardText);
     root.style.setProperty('--color-cardBackGround', nocheCardBack);
     root.style.setProperty('--color-bodyText', nocheBodyText);
     root.style.setProperty('--color-bodyBackGround', nocheBodyBack);
   }else{
-    darkMode = false;
-    localStorage.setItem('darkMode', 'true');
+    localStorage.setItem('darkMode', false);
     root.style.setProperty('--color-cardTexto', diaCardText);
     root.style.setProperty('--color-cardBackGround', diaCardBack);
     root.style.setProperty('--color-bodyText', diaBodyText);
     root.style.setProperty('--color-bodyBackGround', diaBodyBack);
   }
+  this.darkMode= darkMode;
 }
 
 
-try {
-  const dark = localStorage.getItem('darkMode');
-  if(dark!=null){
-    darkMode= dark;
-  }
-  
-} catch (error) {
-  
-}  
+
+
+
+
+  try {
+    const dark = localStorage.getItem('darkMode');
+    
+    if(dark!=null){
+      console.log(dark);
+      darkMode= dark ==="true";
+    }
+    switchDark(darkMode);
+    
+  } catch (error) {
+    console.log(error)
+  }  
+
+

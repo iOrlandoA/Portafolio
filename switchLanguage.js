@@ -3,6 +3,9 @@ var languageSelected = "english";
 const buttonSwitch = document.getElementById("buttonLanguage");
 let isExecuting = false;
 
+
+
+
 document.addEventListener("DOMContentLoaded", function() {
     fetch('localization.json')
     .then(response => response.json())
@@ -12,6 +15,11 @@ document.addEventListener("DOMContentLoaded", function() {
             const cacheLenguage = localStorage.getItem('language');
             if(cacheLenguage!=null){
                 languageSelected= cacheLenguage;
+                if(languageSelected=="english"){
+                    buttonSwitch.value= "EN";
+                }else{
+                    buttonSwitch.value= "ES";
+                }
             }
             
         } catch (error) {
