@@ -51,7 +51,6 @@ header{
     flex-direction: row;
     border-radius: 20px;
     overflow: hidden;
-    height: 200px;
     border-radius: 10px;
     transition: transform 0.3s, box-shadow 0.3s;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
@@ -75,8 +74,8 @@ header{
     width: 60%;
     background-color: var(--color-cardBackGround);
     color: var(--color-cardTexto);
-    padding-right: 40px;
-    padding-left: 40px;
+    padding: 40px;
+    
 
     
 }

@@ -13,7 +13,9 @@ const writeText=()=>{
         textContainer.textContent += text.charAt(index);
         index++;
         setTimeout(typeText, 5); 
-        }
+    }else{
+      isExecuting = false;
+    }
   }
   typeText();
   

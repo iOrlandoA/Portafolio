@@ -27,15 +27,14 @@ document.addEventListener("DOMContentLoaded", function() {
         }  
         
         fillTexts();
-        isExecuting=true;
+        
         try {
-            writeText();   
+            writeText(); 
+            isExecuting=true;  
         } catch (error) {
             
         }
-        setTimeout(function() {
-            isExecuting = false;
-        }, 1000);  
+          
     }
     ).catch(error => console.error(error));
 
@@ -47,6 +46,7 @@ function fillTexts() {
         try {
             const element = document.getElementById(textData.id);
             if (element) {
+                element.style.transition= "transform 0.3s ease";
                 element.textContent = textData.languages[languageSelected];
             }
         } catch (error) {
@@ -62,13 +62,11 @@ const buttonFunction =(e)=>{
     return;
   }
   
-  isExecuting = true;
+  
 
   changeLanguaje(e);
 
-  setTimeout(function() {
-    isExecuting = false;
-  }, 1000);  
+  
 
   
 }
@@ -86,7 +84,8 @@ const changeLanguaje =(e)=>{
         languageSelected = "english";
         fillTexts();
         try {
-            writeText();   
+            writeText();  
+            isExecuting = true; 
         } catch (error) {}
 
     }else{
@@ -95,7 +94,8 @@ const changeLanguaje =(e)=>{
         languageSelected = "spanish";
         fillTexts();
         try {
-            writeText();   
+            writeText();  
+            isExecuting = true; 
         } catch (error) {}
     }
 

@@ -10,8 +10,8 @@
       {
         "id": "welcomeDescription",
         "languages": {
-          "spanish": "Un estudiante altamente comprometido con deseos de aprender, empezar a trabajar, adquirir nuevas habilidades y experiencia profesional.",
-          "english": "A highly committed student with a desire to learn, start working, acquire new skills, and gain professional experience."
+          "spanish": "Una persona altamente comprometida con deseos de aprender,  adquirir nuevas habilidades y experiencia profesional. Es un Junior en Full Stack, con un fuerte interés y pasión por el trabajo en el Frontend. Se siente atraído por la creación de interfaces de usuario atractivas y funcionales. Disfruto explorando las últimas tendencias y tecnologías en el desarrollo web. Mi objetivo es convertirse en un profesional completo en el desarrollo Full Stack, combinando sus habilidades en el Frontend y el Backend para crear aplicaciones web completas y de alto rendimiento.",
+          "english": "A highly committed individual with a desire to learn, acquire new skills and professional experience. He is a Junior in Full Stack, with a strong interest and passion for Frontend work. You are attracted to creating attractive and functional user interfaces. He enjoys exploring the latest trends and technologies in web development. My goal is to become a complete professional in Full Stack development, combining your Frontend and Backend skills to create complete and high performance web applications."
         }
       },
       {
@@ -87,7 +87,7 @@
       {
         "id": "proyectTitle2",
         "languages": {
-          "spanish": "SpaceInvaders",
+          "spanish": "Space Invaders",
           "english": "Space Invaders"
         }
       },
@@ -137,8 +137,8 @@
       {
         "id": "UdemyCurseMasterFramework",
         "languages": {
-          "spanish": "Master en Frameworks JavaScript: Aprende Angular, React, Vue",
-          "english": "Master en Frameworks JavaScript: Aprende Angular, React, Vue"
+          "spanish": "Curso Frameworks JavaScript",
+          "english": "JavaScript Frameworks Course"
         }
       },
       {
