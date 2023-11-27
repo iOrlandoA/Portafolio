@@ -44,6 +44,7 @@
   
   .prev-btn {
     left: 10px;
+    display: none;
   }
   
   .next-btn {

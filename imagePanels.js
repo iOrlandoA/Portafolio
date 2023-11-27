@@ -17,6 +17,8 @@ imagePanels.forEach((panel) => {
       currentIndex--;
       updateSliderPosition();
     }
+    
+
   });
 
   nextBtn.addEventListener('click', () => {
@@ -24,11 +26,23 @@ imagePanels.forEach((panel) => {
       currentIndex++;
       updateSliderPosition();
     }
+    
   });
 
   function updateSliderPosition() {
     const translateValue = -(currentIndex * (imageSlider.clientWidth + margin));
     imageSlider.style.transform = `translateX(${translateValue}px)`;
+    if(currentIndex == 0){
+      prevBtn.style.display= "none";
+    }else{
+      prevBtn.style.display= "block";
+    }
+    if(currentIndex == totalIndex -1){
+      nextBtn.style.display= "none";
+    }else{
+      nextBtn.style.display= "block";
+    }
+    
   }
 
   updateSliderPosition();
