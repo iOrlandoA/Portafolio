@@ -56,7 +56,7 @@ const switchDark=(darkMode)=>{
     switchDark(darkMode);
     
   } catch (error) {
-    console.log(error)
-  }  
+    darkModeBtn.checked= false;
+  }
 
 
