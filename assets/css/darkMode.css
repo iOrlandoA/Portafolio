@@ -1,0 +1,40 @@
+.switch{
+    margin: 10px;
+}
+.lbl-switch{
+    display: block;
+    width: 55px;
+    height: 30px;
+    border-radius: 100px;
+    background-color: #aaa;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px #aaa;
+}
+
+.lbl-switch:after{
+    background-image: url("assets/images/darkMode.svg");
+    position: absolute;
+    content: "";
+    width: 22px;
+    height: 22px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    top: 4px;
+    left: 5px;
+    transition: 0.3;
+    background-image: radial-gradient(circle at top left, transparent 50%, black 55%);
+} 
+
+#dark_mode:checked~ .lbl-switch{
+    background-color: black;
+}
+#dark_mode{
+    display: none;
+} 
+#dark_mode:checked~ .lbl-switch:after{
+    background-color: whitesmoke;
+    left: 28px;
+    background-image: radial-gradient(circle at top left, transparent 50%, #aaa 55%);
+}
+

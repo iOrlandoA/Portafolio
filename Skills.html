@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="assets/css/imagePanel.css">
     <link rel="stylesheet" href="assets/css/typeWriter.css">
     <link rel="stylesheet" href="assets/css/animatedButton.css">
-
+    <link rel="stylesheet" href="assets/css/darkMode.css">
     <link rel="stylesheet" href="assets/css/burgerMenu.css">
 </head>
 
@@ -32,7 +32,10 @@
             <span  class='line3-bars-menu'></span>   
         </div>
         <div style="margin-left: auto; margin-right: 80px; justify-content: center; display: flex;">
-            <button class="animated-button" id="darkMode" type="button" style="padding: 8px 15px 5px 15px;" ><img style="height: 25px;" src="assets/images/darkMode.svg"/></button>
+            <div class="switch">
+                <input type="checkbox" id="dark_mode">
+                <label for="dark_mode" class="lbl-switch"></label>
+            </div>
             <input class="animated-button" id="buttonLanguage" type="button" value="EN" />
             
         </div>

@@ -1,4 +1,4 @@
-const darkModeBtn = document.getElementById("darkMode");
+const darkModeBtn = document.getElementById("dark_mode");
 const root = document.documentElement;
 
 const diaCardText = "#303030";
@@ -46,6 +46,12 @@ const switchDark=(darkMode)=>{
     if(dark!=null){
       console.log(dark);
       darkMode= dark ==="true";
+      if(darkMode==true){
+        darkModeBtn.checked= true;
+      }else{
+        darkModeBtn.checked= false;
+      }
+       
     }
     switchDark(darkMode);
     
