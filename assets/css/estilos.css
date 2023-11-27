@@ -206,9 +206,9 @@ header{
     transition: transform 0.3s ease;
 }
 .card p:hover{
-    
+    font-size: 22px;
     transform: translate(0%, -10px); 
-    max-height: 500px;
+    max-height: none;
     width: 91%;
     border-radius: 5px;
     position: absolute; 
