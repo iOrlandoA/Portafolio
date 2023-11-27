@@ -1,10 +1,26 @@
+:root {
+    --color-cardTexto:#303030;
+    --color-cardBackGround: #F4F4F4;
+  
+    --color-bodyBackGround: #EEF4ED;
+    --color-bodyText:#0D0C08;
+  
+    --color-botones: #003049;
+    --color-botonesHover: #F9A620;
+    --color-botonesText: #F4F4F4;
+  
+    --color-footer: #191710;
+    --color-footerText: #F4F4F4;
+  }
+  
+
 body{
     margin: 0;
     font-family: "Courier New", monospace;
 }
 header{
-    height: 65px; 
-    color: #FDFDFF;
+    height: 75px;
+    color: #EEF4ED;
     display: flex;
     align-items: center;
     padding-left: 25px;
@@ -24,10 +40,10 @@ header{
     align-items: center;
     justify-content: center;
     height: calc(100vh - 65px);
-    background-color: #393D3F;
-    color: white;
-    /* padding-top: 10%; */
+    background-color: var(--color-bodyBackGround);
+    color: var(--color-bodyText);
 }
+
 .caja-central{
     margin: 50px;
     width: 800px;
@@ -38,18 +54,13 @@ header{
     height: 200px;
     border-radius: 10px;
     transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
     
 }
-
-
-  
 .caja-central:hover {
     transform: scale(1.1);
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    
 }
-  
-
-
 .caja-cara{
     display: flex;
     justify-content: center;
@@ -62,8 +73,8 @@ header{
     justify-content: left;
     align-items: center;
     width: 60%;
-    background-color: #f4f4f4;
-    color: #303030;
+    background-color: var(--color-cardBackGround);
+    color: var(--color-cardTexto);
     padding-right: 40px;
     padding-left: 40px;
 
@@ -72,8 +83,6 @@ header{
 .presentacion{
     width: 70%;  
 }
-
-
 
 
 .card-info{
@@ -89,12 +98,10 @@ header{
     transition: transform 0.3s, box-shadow 0.3s;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
 }
-
 .card-info:hover {
     transform: scale(0.71);
     
-}
-  
+} 
 .caja-img{
     display: flex;
     justify-content: center;
@@ -104,8 +111,6 @@ header{
     padding-top: 50px;
     padding-bottom: 50px;
 }
-
-
 .caja-text{
     padding-top: 50px;
     padding-bottom: 50px;
@@ -113,8 +118,8 @@ header{
     justify-content: left;
     align-items: center;
     width: 60%;
-    background-color: #f4f4f4;
-    color: #303030;
+    background-color: var(--color-cardBackGround);
+    color: var(--color-cardTexto);
     padding-right: 40px;
     padding-left: 40px;
 
@@ -123,13 +128,13 @@ header{
 
 
 .dos{
-    background-color: #F2F2F2;
+    background-color: var(--color-bodyBackGround);
     height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #303030;
+    color: var(--color-bodyText);
     padding: 50px;
 
 }
@@ -153,7 +158,6 @@ header{
     align-content: center;
     padding-bottom: 100px;
 }
-
 .tech{
     height: 50px;
     padding-top: 20px;
@@ -162,12 +166,12 @@ header{
 }
 
 .tres{
-    background-color: #303030;
+    background-color: var(--color-bodyBackGround);
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
     align-items: center;
-    color: #F2F2F2;
+    color: var(--color-bodyText);
 }
 
 .card{
@@ -178,13 +182,13 @@ header{
     border-radius: 10px;
     padding: 10px;
     padding-bottom: 20px;
-    background-color: #171717;
-    -webkit-box-shadow: 10px 10px 40px 4px rgba(71,65,71,1);
-    -moz-box-shadow: 10px 10px 40px 4px rgba(71,65,71,1);
-    box-shadow: 10px 10px 40px 4px rgba(71,65,71,1);
+    background-color: var(--color-cardBackGround);
+    color: var(--color-cardTexto);
+    -webkit-box-shadow: 10px 10px 40px 4px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 10px 10px 40px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 10px 10px 40px 4px rgba(0, 0, 0, 0.3);
 
 }
-
 .card p{
     font-size: 14px;
     text-align: left;
@@ -192,13 +196,14 @@ header{
     margin-top: 30px;
     margin-bottom: 30px;
 }
-
+.card h3{
+    color: var(--color-cardTexto) !important;
+}
 .card a, footer a {
     color: white;
     text-decoration: none;
     padding-top: 10px;
 }
-
 .red-social{
     height: 30px;
     background-color: transparent;
@@ -207,12 +212,12 @@ header{
 }
 
 footer{
-    background-color: #424242;
+    background-color: var(--color-footer);
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    color: #F2F2F2;
+    color: var(--color-footerText);
     height: 180px;
 }
 

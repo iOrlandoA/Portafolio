@@ -7,7 +7,17 @@ document.addEventListener("DOMContentLoaded", function() {
     fetch('localization.json')
     .then(response => response.json())
     .then(data => {
-        localizationMessages= data.texts;    
+        localizationMessages= data.texts; 
+        try {
+            const cacheLenguage = localStorage.getItem('language');
+            if(cacheLenguage!=null){
+                languageSelected= cacheLenguage;
+            }
+            
+        } catch (error) {
+            
+        }  
+        
         fillTexts();
         isExecuting=true;
         try {
@@ -17,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
         setTimeout(function() {
             isExecuting = false;
-        }, 3000);  
+        }, 1000);  
     }
     ).catch(error => console.error(error));
 
@@ -50,7 +60,7 @@ const buttonFunction =(e)=>{
 
   setTimeout(function() {
     isExecuting = false;
-  }, 3000);  
+  }, 1000);  
 
   
 }
@@ -64,6 +74,7 @@ const buttonFunction =(e)=>{
 const changeLanguaje =(e)=>{
     if(e.target.value === "ES"){
         e.target.value = "EN";
+        localStorage.setItem('language', 'english');
         languageSelected = "english";
         fillTexts();
         try {
@@ -72,6 +83,7 @@ const changeLanguaje =(e)=>{
 
     }else{
         e.target.value = "ES";
+        localStorage.setItem('language', 'spanish');
         languageSelected = "spanish";
         fillTexts();
         try {

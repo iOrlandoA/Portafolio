@@ -1,11 +1,5 @@
 const imagePanels = document.querySelectorAll('.image-panel');
-const presentacion = document.getElementsByClassName('caja-central');
 
-
-presentacion[0].addEventListener('click', () => {
-  const elementoObjetivo = document.getElementsByClassName('tres');
-  elementoObjetivo[0].scrollIntoView({ behavior: 'smooth' });
-});
 
 
 

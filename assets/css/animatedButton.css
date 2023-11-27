@@ -1,4 +1,7 @@
 
+
+
+
 .containerButtons {
   margin-top: auto;
   margin-bottom: 20px;
@@ -9,19 +12,19 @@
 .animated-button {
     
     padding: 10px 20px;
-    background-color: #003049;
-    color: white;
+    background-color: var(--color-botones);
+    color: var(--color-botonesText);
     border: none;
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    margin-left: 20px;
+    margin-left: 10px;
     text-decoration: none;
   }
   
   .animated-button:hover {
-    background-color: #62929E;
+    background-color: var(--color-botonesHover);
   }
 
   .animated-button:active{

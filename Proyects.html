@@ -24,11 +24,15 @@
 <body>
     <header>
         <h3 style="text-decoration: none;"> Orlando Aguilar Peralta </h3>
-        <input class="animated-button" id="buttonLanguage" type="button" value="EN" style="margin-left: auto; margin-right: 80px;"/>
         <div class='bars-menu' >
             <span  class='line1-bars-menu'></span>
             <span  class='line2-bars-menu'></span>
             <span  class='line3-bars-menu'></span>   
+        </div>
+        <div style="margin-left: auto; margin-right: 80px; justify-content: center; display: flex;">
+            <button class="animated-button" id="darkMode" type="button" style="padding: 8px 15px 5px 15px;" ><img style="height: 25px;" src="assets/images/darkMode.svg"/></button>
+            <input class="animated-button" id="buttonLanguage" type="button" value="EN" />
+            
         </div>
         <div class="menu-side" >
             <div class="name-page">
@@ -176,7 +180,7 @@
                 </a>
                 
                 <a href="https://github.com/iOrlandoA" target="_blank">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg" class="red-social" alt="GitHub">
+                    <img style="filter: invert(100%);" src="https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg" class="red-social" alt="GitHub">
                 </a>
                            
                 <a href="mailto:orlandoaguilarperalta@gmail.com" target="_blank">
@@ -188,6 +192,7 @@
     <script src="imagePanels.js"></script>
     <script src="switchLanguage.js"></script>
     <script src="BurgerMenu.js"></script>
+    <script src="darkMode.js"></script>
     
 </body>
 
