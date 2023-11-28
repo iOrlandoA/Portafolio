@@ -342,7 +342,7 @@ footer{
         
     }
     .caja-presentacion{
-        width: 86%;
+        width: auto;
         height: 50%;
         align-items: flex-start;
         padding-right: 50px;
