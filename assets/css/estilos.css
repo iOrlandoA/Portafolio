@@ -327,7 +327,13 @@ footer{
 
 @media (max-width: 1000px) {
     .caja-central{
+        width: 90%;
         flex-direction: column;
+        margin-bottom: 100px;
+    }
+
+    .caja-central:hover {
+        transform: scale(1.02);
     }
     .caja-cara{
         width: 100%;
@@ -391,9 +397,3 @@ footer{
 
 
 
-@media (max-width: 350px){
-    .caja-central:hover {
-        transform: scale(1.02);
-    }
-    
-}
