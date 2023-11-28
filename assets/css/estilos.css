@@ -30,6 +30,7 @@ header{
 .cara{
     border-radius: 500px;
     height: 200px;
+    margin: 20px;
 }
 
 
@@ -326,11 +327,7 @@ footer{
 
 @media (max-width: 1000px) {
     .caja-central{
-        width: 90%;
-        height: 70%;
         flex-direction: column;
-        
-        
     }
     .caja-cara{
         width: 100%;
