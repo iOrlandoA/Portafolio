@@ -323,6 +323,15 @@ footer{
         width: 80%;
         margin-top: 20px;
     }
+    .card p:hover {
+        margin-top: 57%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .card p:hover {
+        margin-top: 470px;
+      }
 }
 
 @media (max-width: 1000px) {
@@ -335,6 +344,8 @@ footer{
     .caja-central:hover {
         transform: scale(1.02);
     }
+
+    
     .caja-cara{
         width: 100%;
         height: 50%;
@@ -394,17 +405,13 @@ footer{
         padding-left: 30px;
     }
 
-    
+    .card p:hover {
+        margin-top: 75%;
+      }
     
 }
 
 
-@media screen and (max-width: 500px) {
-
-    .tres{
-      height: 1570px;
-    }
-  }
   
 
 

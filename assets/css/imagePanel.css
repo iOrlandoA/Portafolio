@@ -87,7 +87,9 @@
     .image-container{
       transform: scale(0.5)translate(0, -30%);
     }
-
+    .tres{
+      height: 1560px;
+    }
   }
   
 
