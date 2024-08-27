@@ -161,8 +161,14 @@
           "spanish": "Habilidades",
           "english": "Skills"
         }
+      },
+      {
+        "id": "proyectTitle5",
+        "languages": {
+          "spanish": "Proyecto Wallet",
+          "english": "Project Wallet"
+        }
       }
-
     ]
   }
   
