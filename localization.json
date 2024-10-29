@@ -168,6 +168,13 @@
           "spanish": "Proyecto Wallet",
           "english": "Project Wallet"
         }
+      },
+      {
+        "id": "proyectDes5",
+        "languages": {
+          "spanish": "Un proyecto completo de RRHH para una o varias empresas de RRHH, en el cual se desarrollo con NestJS y NextJS para crear una Wallet de funcionalidades empresariales, con una base de datos PostgreSQL. ",
+          "english": "A complete HR project for one or many HR companies, in which I have been using NestJS and NextJS to create an enterprise wallet, with a PostgreSQL database."
+        }
       }
     ]
   }
