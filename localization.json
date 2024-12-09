@@ -175,7 +175,34 @@
           "spanish": "Un proyecto completo de RRHH para una o varias empresas de RRHH, en el cual se desarrollo con NestJS y NextJS para crear una Wallet de funcionalidades empresariales, con una base de datos PostgreSQL. ",
           "english": "A complete HR project for one or many HR companies, in which I have been using NestJS and NextJS to create an enterprise wallet, with a PostgreSQL database."
         }
+      },{
+        "id": "proyectTitle6",
+        "languages": {
+          "spanish": "Detector Somnolencia",
+          "english":  "Sleep Detector"
+        }
+      },
+      {
+        "id": "proyectDes6",
+        "languages": {
+          "spanish": "Un sistema de detección del sueño mediante Python, que utiliza la camara y una librería llamada dlib para detectar la presencia del sueño en una imagen y opencv-python para procesar las imagenes en tiempo real.",
+          "english": "A sleep detection system using Python, which uses the camera and a library called dlib to detect the presence of sleep in an image and opencv-python to process images in real-time."
+        }
+      },{
+        "id": "proyectTitle7",
+        "languages": {
+          "spanish": "Mellita Essentia Web Page",
+          "english": "Mellita Essentia Web Page"
+        }
+      },
+      {
+        "id": "proyectDes7",
+        "languages": {
+          "spanish": "Un proyecto para un negocio familiar de productos de belleza, en el cual se desarrollo con NextJS para crear una web page de venta de productos desplegada en Vercel en colaboración con DynamoDB de AWS. ",
+          "english": "A family business product sale web page project, in which I have been using NextJS to create a deployed web page on Vercel in collaboration with DynamoDB of AWS."
+        }
       }
+
     ]
   }
   
