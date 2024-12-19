@@ -455,5 +455,21 @@ footer{
     transform: translateX(4px);
 }
 
+.spline-container {
+    position: fixed;
+    top: 10;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 0;
+
+}
+
+.spline-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
 
 
