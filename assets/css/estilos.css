@@ -59,8 +59,11 @@ header{
     
 }
 .caja-central:hover {
-    transform: scale(1.1);
-    
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
 }
 .caja-cara{
     display: flex;
@@ -205,6 +208,8 @@ header{
     box-shadow: 10px 10px 40px 4px rgba(0, 0, 0, 0.3);
 
 }
+
+
 
 .card p{
     font-size: 18px;
@@ -419,8 +424,36 @@ footer{
     
 }
 
+/* Añadir al CSS existente */
+.learn-more-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    background: linear-gradient(45deg, #003049, #1a4b63);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    margin-top: 15px;
+    gap: 8px;
+}
 
-  
+.learn-more-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(45deg, #1a4b63, #003049);
+}
+
+.learn-more-btn .icon {
+    transition: transform 0.3s ease;
+}
+
+.learn-more-btn:hover .icon {
+    transform: translateX(4px);
+}
 
 
 

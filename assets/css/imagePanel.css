@@ -1,95 +1,122 @@
+/* Estilos para los items/cards */
+.image-container {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  flex-flow: wrap;
+  margin: 0 auto;
+  align-content: center;
+  padding-bottom: 100px;
+}
+
+.item-image {
+  margin: 10px;
+  max-width: 800px !important;
+  min-width: 600px !important;
+}
+
+/* Panel de imágenes */
 .image-panel {
-    width: 600px;
-    overflow: hidden;
-    position:relative;
-    margin: 0 auto;
-    border-radius: 3px;
-  }
-  
-  .image-slider {
-    display: flex;
-    transition: transform 0.5s;
-  }
-  
-  .image-slider img{
-    width: 600px; /* Ancho de imagen */
-    height: 340px; /* Alto de imagen */
-  }
-  .frame{
-    width: 600px !important; /* Ancho de imagen */
-    height: 340px !important; /* Alto de imagen */
-  }
-  #player {
-    background-color: white !important;
-  }
-  
-  
-  .prev-btn,
-  .next-btn {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    cursor: pointer;
-    background: none;
-    border: none;
-    z-index: 1;
-    background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 5px;
-    padding-top: 4px;
-  }
-  .prev-btn:active, .next-btn:active{
-    transform: scale(1.1);
-    transition: transform 0.3s ease-in-out;
-  }
-  
-  .prev-btn {
-    left: 10px;
-    display: none;
-  }
-  
-  .next-btn {
-    right: 10px;
-  }
-  
-  .prev-btn img,
-  .next-btn img {
-    width: 24px;
-    height: 24px;
-  }
+  width: 600px;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+  border-radius: 3px;
+}
+
+.image-slider {
+  display: flex;
+  transition: transform 0.5s;
+}
+
+.image-slider img {
+  width: 600px;
+  height: 340px;
+}
+
+.frame {
+  width: 600px !important;
+  height: 340px !important;
+}
+
+/* Botones de navegación */
+.prev-btn,
+.next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  background: none;
+  border: none;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  padding-top: 4px;
+}
+
+.prev-btn:active,
+.next-btn:active {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.prev-btn {
+  left: 10px;
+  display: none;
+}
+
+.next-btn {
+  right: 10px;
+}
+
+.prev-btn img,
+.next-btn img {
+  width: 24px;
+  height: 24px;
+}
 
 
-  .image-container{
-    display: flex;
-    justify-content: center;
-    width: 80%;
-    flex-flow: wrap;
-    margin: 0 auto;
-    align-content: center;
-    padding-bottom: 100px;
-    
-  }
-  
-  .item-image {
-    margin: 10px;
-    max-width: 800px  !important;
-    min-width: 600px !important;
-  }
 
-  @media screen and (max-width: 650px) {
-    .image-container{
+/* Dots de navegación */
+.dots-container {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+  z-index: 2;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dot.active {
+  background: white;
+}
+
+/* Media queries */
+@media screen and (max-width: 650px) {
+  .image-container {
       transform: scale(0.8);
       margin-top: -250px;
       margin-bottom: -250px;
-    }
   }
+}
 
-  @media screen and (max-width: 500px) {
-    .image-container{
-      transform: scale(0.5)translate(0, -30%);
-    }
-    .tres{
-      height: 1560px;
-    }
+@media screen and (max-width: 500px) {
+  .image-container {
+      transform: scale(0.5) translate(0, -30%);
   }
   
+  .tres {
+      height: 1560px;
+  }
+}
 

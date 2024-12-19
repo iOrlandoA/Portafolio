@@ -1,0 +1,232 @@
+{
+    "projects": [
+      {
+        "id": "mellita-essentia",
+        "titleEs": "Mellita Essentia Web Page",
+        "titleEn": "Mellita Essentia Web Page",
+        "images": [
+          "assets/proyects-images/MellitaEssentia/mellita1.png",
+          "assets/proyects-images/MellitaEssentia/mellita2.png",
+          "assets/proyects-images/MellitaEssentia/mellita3.png",
+          "assets/proyects-images/MellitaEssentia/mellita4.png",
+          "assets/proyects-images/MellitaEssentia/mellita5.png",
+          "assets/proyects-images/MellitaEssentia/mellita6.png"
+        ],
+        "descriptions": {
+          "es": "Desarrollé un proyecto para un negocio familiar dedicado a la venta de productos de belleza, creando una página web moderna y funcional con NextJS. La web fue desplegada de manera eficiente en Vercel, aprovechando su facilidad de implementación y escalabilidad. Además, integré DynamoDB de AWS como base de datos para garantizar un manejo seguro, rápido y confiable de los datos de los productos y pedidos.",
+          "en": "I developed a project for a family business dedicated to selling beauty products, creating a modern and functional website with NextJS. The web was efficiently deployed on Vercel, taking advantage of its ease of implementation and scalability. Additionally, I integrated AWS DynamoDB as a database to ensure secure, fast, and reliable handling of product and order data."
+        },
+        "technologies": [
+          {
+            "name": "Node.js",
+            "icon": "https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg"
+          },
+          {
+            "name": "Next.js",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg"
+          },
+          {
+            "name": "DynamoDB",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/f/fd/DynamoDB.png"
+          },
+          {
+            "name": "AWS",
+            "icon": "https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-ar21.svg"
+          },
+          {
+            "name": "Vercel",
+            "icon": "https://www.vectorlogo.zone/logos/vercel/vercel-icon.svg"
+          }
+        ]
+      },
+      {
+        "id": "detector-somnolencia",
+        "titleEs": "Detector Somnolencia",
+        "titleEn": "Drowsiness Detector",
+        "images": [
+          "assets/proyects-images/Somnolencia/image.png"
+        ],
+        "video": "https://www.youtube.com/embed/0du_COqa__E",
+        "descriptions": {
+          "es": "Un sistema de detección del sueño mediante Python, que utiliza la detección de landmarks faciales para medir la presencia del sueño en una imagen y opencv-python para procesar las imágenes en tiempo real.",
+          "en": "A sleep detection system using Python that utilizes facial landmark detection to measure drowsiness in an image and opencv-python to process images in real-time."
+        },
+        "technologies": [
+          {
+            "name": "Python",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg"
+          }
+        ],
+        "links": {
+          "youtube": "https://youtu.be/0du_COqa__E"
+        }
+      },
+      {
+        "id": "logiflex-wallet",
+        "titleEs": "Proyecto Wallet",
+        "titleEn": "Wallet Project",
+        "images": [
+          "assets/proyects-images/logiflex/logiflex1.png",
+          "assets/proyects-images/logiflex/logiflex2.png",
+          "assets/proyects-images/logiflex/logiflex3.png",
+          "assets/proyects-images/logiflex/logiflex4.png",
+          "assets/proyects-images/logiflex/logiflex5.png",
+          "assets/proyects-images/logiflex/logiflex6.png",
+          "assets/proyects-images/logiflex/logiflex7.png",
+          "assets/proyects-images/logiflex/logiflex8.png",
+          "assets/proyects-images/logiflex/logiflex9.png",
+          "assets/proyects-images/logiflex/logiflex10.png",
+          "assets/proyects-images/logiflex/logiflex11.png",
+          "assets/proyects-images/logiflex/logiflex12.png",
+          "assets/proyects-images/logiflex/logiflex13.png"
+        ],
+        "video": "https://www.youtube.com/embed/x3PNPz5WuMg",
+        "descriptions": {
+          "es": "Lideré el desarrollo de un sistema integral de gestión de monedero electrónico para atender las necesidades de las empresas. Implementé la tecnología Node.js en una arquitectura de wallet empresarial con diversas funcionalidades. Utilicé frameworks modernos como NestJs para el backend y NextJs para el frontend, lo que permitió una arquitectura robusta, escalable y eficiente.",
+          "en": "I led the development of a comprehensive electronic wallet management system to meet business needs. I implemented Node.js technology in an enterprise wallet architecture with various functionalities. I used modern frameworks like NestJs for the backend and NextJs for the frontend, enabling a robust, scalable, and efficient architecture."
+        },
+        "technologies": [
+          {
+            "name": "Next.js",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg"
+          },
+          {
+            "name": "NestJs",
+            "icon": "https://www.vectorlogo.zone/logos/nestjs/nestjs-ar21.svg"
+          }
+        ],
+        "links": {
+          "youtube": "https://youtu.be/RGN0SARl1ao"
+        }
+      },
+      {
+        "id": "sistema-validaciones",
+        "titleEs": "Sistema de Validaciones Automático y Adaptable",
+        "titleEn": "Automatic and Adaptable Validation System",
+        "images": [
+          "assets/proyects-images/Captura Sistema Validaciones.png"
+        ],
+        "video": "https://www.youtube.com/embed/BVdgzrnmRlQ",
+        "descriptions": {
+          "es": "Este microservicio en Javascript forma un sistema integral para validar datos de una manera altamente eficiente y personalizable. Todo ello se ejecuta en tiempo real, asegurando la corrección de los datos según una serie de reglas definidas. Se emplearon tecnologías JS para el backend y formularios dinámicos para mapear y validar una variedad de campos de entrada.",
+          "en": "This JavaScript microservice forms a comprehensive system for validating data in a highly efficient and customizable manner. All of this runs in real-time, ensuring data correction according to a set of defined rules. JS technologies were used for the backend and dynamic forms to map and validate a variety of input fields."
+        },
+        "technologies": [
+          {
+            "name": "JavaScript",
+            "icon": "https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg"
+          },
+          {
+            "name": "PHP",
+            "icon": "https://www.vectorlogo.zone/logos/php/php-horizontal.svg"
+          }
+        ],
+        "links": {
+          "youtube": "https://youtu.be/RGN0SARl1ao"
+        }
+      },
+      {
+        "id": "sistema-gestion-financiera",
+        "titleEs": "Sistema de Gestión Financiera Ganadera",
+        "titleEn": "Livestock Financial Management System",
+        "images": [
+          "assets/proyects-images/SGFG1.png",
+          "assets/proyects-images/SGFG2.png",
+          "assets/proyects-images/SGFG3.png",
+          "assets/proyects-images/SGFG4.png",
+          "assets/proyects-images/SGFG5.png",
+          "assets/proyects-images/SGFG6.png",
+          "assets/proyects-images/SGFG7.png"
+        ],
+        "video": "https://www.youtube.com/embed/Vi9hFraKHqw",
+        "descriptions": {
+          "es": "Desarrollé un sistema integral para una empresa ganadera, donde asumí el rol de líder de proyecto, coordinando un equipo de 3 compañeros. Implementé la tecnología React como herramienta para la gestión de tareas y organización de dos semestres. Además, maneje Ruby on Rails como framework utilizando React como framework para el frontend.",
+          "en": "I developed a comprehensive system for a livestock company, where I took on the role of project leader, coordinating a team of 3 colleagues. I implemented React technology as a tool for task management and organization over two semesters. Additionally, I used Ruby on Rails as a framework using React as the frontend framework."
+        },
+        "technologies": [
+          {
+            "name": "React",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/4/47/React.svg"
+          },
+          {
+            "name": "Ruby on Rails",
+            "icon": "https://www.vectorlogo.zone/logos/ruby-lang/ruby-lang-icon.svg"
+          },
+          {
+            "name": "Node.js",
+            "icon": "https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg"
+          }
+        ],
+        "links": {
+          "frontend": "https://github.com/iOrlandoA/proyecto-SGFG",
+          "backend": "https://github.com/iOrlandoA/proyecto-SGFGBackEnd"
+        }
+      },
+      {
+        "id": "space-invaders",
+        "titleEs": "Space Invaders",
+        "titleEn": "Space Invaders",
+        "images": [
+          "assets/proyects-images/space1.png",
+          "assets/proyects-images/space2.png",
+          "assets/proyects-images/space3.png"
+        ],
+        "descriptions": {
+          "es": "Pequeño proyecto de SpaceInvaders como primer proyecto grande al que dediqué mucho tiempo en Java.",
+          "en": "Small SpaceInvaders project as my first big project to which I dedicated a lot of time in Java."
+        },
+        "technologies": [
+          {
+            "name": "Java",
+            "icon": "https://www.vectorlogo.zone/logos/java/java-icon.svg"
+          }
+        ],
+        "links": {
+          "github": "https://github.com/iOrlandoA/SpaceInvaders"
+        }
+      },
+      {
+        "id": "controlador-remoto",
+        "titleEs": "Sistema de Controlador Windows Remoto",
+        "titleEn": "Windows Remote Controller System",
+        "images": [
+          "assets/proyects-images/Controlador.png"
+        ],
+        "descriptions": {
+          "es": "Un proyecto de desarrollo universitario que buscaba generar un controlador remoto utilizando .NET",
+          "en": "A university development project that sought to create a remote controller using .NET"
+        },
+        "technologies": [
+          {
+            "name": ".NET",
+            "icon": "https://www.vectorlogo.zone/logos/dotnet/dotnet-icon.svg"
+          }
+        ],
+        "links": {
+          "github": "https://github.com/iOrlandoA/SpaceInvaders"
+        }
+      }
+    ],
+    "translations": {
+      "es": {
+        "proyectsTitle": "Mis Proyectos",
+        "contactTitle": "Contacto",
+        "buttons": {
+          "github": "GitHub",
+          "frontend": "FrontEnd",
+          "backend": "BackEnd",
+          "youtube": "YouTube"
+        }
+      },
+      "en": {
+        "proyectsTitle": "My Projects",
+        "contactTitle": "Contact",
+        "buttons": {
+          "github": "GitHub",
+          "frontend": "FrontEnd",
+          "backend": "BackEnd",
+          "youtube": "YouTube"
+        }
+      }
+    }
+  }
