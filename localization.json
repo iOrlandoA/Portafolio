@@ -202,7 +202,22 @@
           "spanish": "Desarrollé un proyecto para un negocio familiar dedicado a la venta de productos de belleza, creando una página web moderna y funcional con NextJS. La web fue desplegada de manera eficiente en Vercel, aprovechando su facilidad de implementación y escalabilidad. Además, integré DynamoDB de AWS como base de datos para garantizar un manejo seguro, rápido y confiable de los datos de los productos y pedidos. Este proyecto no solo optimizó la presencia digital del negocio, sino que también mejoró la experiencia del cliente al ofrecer una plataforma intuitiva y fácil de usar.",
           "english": "I developed a project for a family business dedicated to selling beauty products, creating a modern and functional website using NextJS. The site was efficiently deployed on Vercel, leveraging its ease of deployment and scalability. Additionally, I integrated AWS DynamoDB as the database to ensure secure, fast, and reliable handling of product and order data. This project not only optimized the business’s digital presence but also enhanced the customer experience by providing an intuitive and user-friendly platform."
         }
-      }      
+      },
+      {
+        "id": "proyectTitle8",
+        "languages": {
+          "spanish": "TalexaIA",
+          "english": "TalexaAI"
+        }
+      },
+      {
+        "id": "proyectDes8",
+        "languages": {
+          "spanish": "Desarrollé una plataforma full-stack con Next.js (frontend) y Node.js (backend) que integra OpenAI para transformar consultas en lenguaje natural (ej: distribución salarial por departamento) en gráficos interactivos (Chart.js). Implementé pipelines de procesamiento de datos para garantizar cumplimiento GDPR, optimicé la renderización con Server-Side Rendering y diseñé una API REST para conexión segura a bases de datos internas. La herramienta procesa datos de HR y Pagos, reduciendo el tiempo de generación de reportes en un 60% mediante automatización con IA.",
+          "english": " I developed a full-stack platform with Next.js (frontend) and Node.js (backend) that integrates OpenAI to transform natural language queries (e.g. salary distribution by department) into interactive charts (Chart.js). I implemented data processing pipelines to ensure GDPR compliance, optimized rendering with Server-Side Rendering, and designed a REST API for secure connection to internal databases. The tool processes HR and Payment data, reducing report generation time by 60% through AI automation."
+        }
+      }
+    
 
     ]
   }
