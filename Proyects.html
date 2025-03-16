@@ -66,287 +66,37 @@
 
 
     <section class="tres">
-
-        <h2 id="proyectsTitle"></h2>
-        <div class="image-container">
-
-            
-            <div class="card item-image" >
-                <h3 id="proyectTitle8"></h3>
+        <h2 id="proyectsTitle">Mis Proyectos</h2>
+        
+        <!-- Project Template -->
+        <template id="projectTemplate">
+            <article class="card item-image">
+                <h3 class="project-title"></h3>
                 <div class="image-panel">
                     <button class="prev-btn"><img src="assets/images/arrow-left.png" alt="Anterior"></button>
                     <div class="image-slider">
-
-                        <div class="frame">
-                            <iframe width="600" height="340" src="https://www.youtube.com/embed/U6R4vxzU8CI?si=oNqb8LMX6CucOABC?origin=https://iorlandoa.github.io/Portafolio/" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        </div>
+                        <!-- Images and videos will be inserted here -->
                     </div>
                     <button class="next-btn"><img src="assets/images/arrow-right.png" alt="Siguiente"></button>
                 </div>
                 <div class="img-info-box">
-                    <div class="img-info-container">
-                        <img class="img-info" src="https://cdn.worldvectorlogo.com/logos/openai-2.svg"/>
-                        <label class="img-info-text" >OPENIA</label>
-                    </div>
+                    <!-- Technologies will be inserted here -->
                 </div>
-                <p id="proyectDes8">
-                </p>
-            </div>
-
-            <div class="card item-image" >
-                <h3 id="proyectTitle7"></h3>
-                <div class="image-panel">
-                    <button class="prev-btn"><img src="assets/images/arrow-left.png" alt="Anterior"></button>
-                    <div class="image-slider">
-                        <img src="assets/proyects-images/MellitaEssentia/mellita1.png" alt="Imagen 1">
-                        <img src="assets/proyects-images/MellitaEssentia/mellita2.png" alt="Imagen 2">
-                        <img src="assets/proyects-images/MellitaEssentia/mellita3.png" alt="Imagen 3">
-                        <img src="assets/proyects-images/MellitaEssentia/mellita4.png" alt="Imagen 4">
-                        <img src="assets/proyects-images/MellitaEssentia/mellita5.png" alt="Imagen 5">
-                        <img src="assets/proyects-images/MellitaEssentia/mellita6.png" alt="Imagen 6">                       
-                    </div>
-                    <button class="next-btn"><img src="assets/images/arrow-right.png" alt="Siguiente"></button>
-                </div>
-                <div class="img-info-box">
-                    <div class="img-info-container">
-                        <img class="img-info" src="https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg"/>
-                        <label class="img-info-text" >Node.js</label>
-                    </div>
-                    <div class="img-info-container">
-                        <img class="img-info" src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg"/>
-                        <label class="img-info-text" ></label>
-                    </div>
-                    
-                    <div class="img-info-container">
-                        <img class="img-info" src="https://upload.wikimedia.org/wikipedia/commons/f/fd/DynamoDB.png"/>
-                        <label class="img-info-text" >DynamoDB</label>
-                    </div>
-                    <div class="img-info-container">
-                        <img class="img-info" src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-ar21.svg"/>
-                        <label class="img-info-text" >AWS</label>
-                    </div>
-                    <div class="img-info-container">
-                        <img class="img-info" src="https://www.vectorlogo.zone/logos/vercel/vercel-icon.svg"/>
-                        <label class="img-info-text" >Vercel</label>
-                    </div>
-
-                </div>
-                <p id="proyectDes7">
-                    
-                </p>
-               
-                
-            </div>
-
-            <div class="card item-image" >
-                <h3 id="proyectTitle6"></h3>
-                <div class="image-panel">
-                    <button class="prev-btn"><img src="assets/images/arrow-left.png" alt="Anterior"></button>
-                    <div class="image-slider">
-                        <img src="assets/proyects-images/Somnolencia/image.png" alt="Imagen 1">
-
-                        <div class="frame">
-                            <iframe width="600" height="340" src="https://www.youtube.com/embed/0du_COqa__E?si=LRID1FpEBwF3lOY8?origin=https://iorlandoa.github.io/Portafolio/" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                    <button class="next-btn"><img src="assets/images/arrow-right.png" alt="Siguiente"></button>
-                </div>
-                <div class="img-info-box">
-                    <div class="img-info-container">
-                        <img class="img-info" src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg"/>
-                        <label class="img-info-text" >Python</label>
-                    </div>
-                </div>
-                <p id="proyectDes6">
-                </p>
-            </div>
-
-            <div class="card item-image" >
-                <h3 id="proyectTitle5"></h3>
-                <div class="image-panel">
-                    <button class="prev-btn"><img src="assets/images/arrow-left.png" alt="Anterior"></button>
-                    <div class="image-slider">
-                        <img src="assets/proyects-images/logiflex/logiflex1.png" alt="Imagen 1">
-                        <img src="assets/proyects-images/logiflex/logiflex2.png" alt="Imagen 2">
-                        <img src="assets/proyects-images/logiflex/logiflex3.png" alt="Imagen 3">
-                        <img src="assets/proyects-images/logiflex/logiflex4.png" alt="Imagen 4">
-                        <img src="assets/proyects-images/logiflex/logiflex5.png" alt="Imagen 5">
-                        <img src="assets/proyects-images/logiflex/logiflex6.png" alt="Imagen 6">
-                        <img src="assets/proyects-images/logiflex/logiflex7.png" alt="Imagen 7">
-                        <img src="assets/proyects-images/logiflex/logiflex8.png" alt="Imagen 8">
-                        <img src="assets/proyects-images/logiflex/logiflex9.png" alt="Imagen 9">
-                        <img src="assets/proyects-images/logiflex/logiflex10.png" alt="Imagen 10">
-                        <img src="assets/proyects-images/logiflex/logiflex11.png" alt="Imagen 11">
-                        <img src="assets/proyects-images/logiflex/logiflex12.png" alt="Imagen 12">
-                        <img src="assets/proyects-images/logiflex/logiflex13.png" alt="Imagen 13">
-                        <div class="frame">
-                            <iframe width="600" height="340" src="https://www.youtube.com/embed/x3PNPz5WuMg?si=pfGL_C54UGV_33m2?origin=https://iorlandoa.github.io/Portafolio/" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                    <button class="next-btn"><img src="assets/images/arrow-right.png" alt="Siguiente"></button>
-                </div>
-                <div class="img-info-box">
-                    <div class="img-info-container">
-                        <img class="img-info" src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg"/>
-                        <label class="img-info-text" ></label>
-                    </div>
-                    <div class="img-info-container">
-                        <img class="img-info" src="https://www.vectorlogo.zone/logos/nestjs/nestjs-ar21.svg"/>
-                        <label class="img-info-text" >NestJs</label>
-                    </div>
-                </div>
-                <p id="proyectDes5">
-                    
-                </p>
+                <p class="project-description"></p>
                 <div class="containerButtons">
-                    <a href="https://youtu.be/RGN0SARl1ao?si=DefE0zwwrAe4jAAi" target="_blank" class="animated-button">YouTube</a>
+                    <!-- Links will be inserted here -->
                 </div>
-                
-            </div>
-
-
-            
-            <div class="card item-image" >
-                <h3 id="proyectTitle4"></h3>
-                <div class="image-panel">
-                    <button class="prev-btn"><img src="assets/images/arrow-left.png" alt="Anterior"></button>
-                    <div class="image-slider">
-                        <img src="assets/proyects-images/Captura Sistema Validaciones.png" alt="Imagen 1">
-                        <div class="frame">
-                            <iframe width="600" height="340" src="https://www.youtube.com/embed/BVdgzrnmRlQ?si=-frIQnlblg1K7tSr?origin=https://iorlandoa.github.io/Portafolio/" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                    <button class="next-btn"><img src="assets/images/arrow-right.png" alt="Siguiente"></button>
-                </div>
-                <div class="img-info-box">
-                    <div class="img-info-container">
-                        <img class="img-info" src="https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg"/>
-                        <label class="img-info-text" >JavasScript</label>
-                    </div>
-                    <div class="img-info-container">
-                        <img class="img-info" src="https://www.vectorlogo.zone/logos/php/php-horizontal.svg"/>
-                        <label class="img-info-text" >PHP</label>
-                    </div>
-                </div>
-                <p id="proyectDes4">
-                    
-                </p>
-                <div class="containerButtons">
-                    <a href="https://youtu.be/RGN0SARl1ao?si=DefE0zwwrAe4jAAi" target="_blank" class="animated-button">YouTube</a>
-                </div>
-                
-            </div>
-
-            <div class="card item-image"> 
-                
-                <a href="https://youtu.be/Vi9hFraKHqw" target="_blank" >                    
-                    <h3 id="proyectTitle1"></h3>              
-                </a>
-
-                <div class="image-panel">
-                    <button class="prev-btn"><img src="assets/images/arrow-left.png" alt="Anterior"></button>
-                    <div class="image-slider">
-                        
-                            <img src="assets/proyects-images/SGFG1.png" alt="Imagen 1">
-                        <img src="assets/proyects-images/SGFG2.png" alt="Imagen 2">
-                        <img src="assets/proyects-images/SGFG3.png" alt="Imagen 3">
-                        <img src="assets/proyects-images/SGFG4.png" alt="Imagen 4">
-                        
-                        <img src="assets/proyects-images/SGFG5.png" alt="Imagen 5">
-                        <img src="assets/proyects-images/SGFG6.png" alt="Imagen 6">
-                        <img src="assets/proyects-images/SGFG7.png" alt="Imagen 7">
-                        <div class="frame">
-                            <iframe width="600" height="340px" src="https://www.youtube.com/embed/Vi9hFraKHqw?si=fI7nIZj8BmQQYdb2?origin=https://iorlandoa.github.io/Portafolio/" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                    
-                    <button class="next-btn"><img src="assets/images/arrow-right.png" alt="Siguiente"></button>
-                </div>
-                <div class="img-info-box">
-                    <div class="img-info-container">
-                        <img class="img-info" src="https://upload.wikimedia.org/wikipedia/commons/4/47/React.svg"/>
-                        <label class="img-info-text" >React</label>
-                    </div>
-                    <div class="img-info-container">
-                        <img class="img-info" src="https://www.vectorlogo.zone/logos/ruby-lang/ruby-lang-icon.svg"/>
-                        <label class="img-info-text" >RubyOnRails</label>
-                    </div>
-                    <div class="img-info-container">
-                        <img class="img-info" src="https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg"/>
-                        <label class="img-info-text" >Node.js</label>
-                    </div>
-                </div>
-                <p id="proyectDes1">
-                    
-                </p>
-                <div class="containerButtons">
-                    <a href="https://github.com/iOrlandoA/proyecto-SGFG" target="_blank" class="animated-button">FrontEnd</a> 
-                    <a href="https://github.com/iOrlandoA/proyecto-SGFGBackEnd" target="_blank" class="animated-button">BackEnd</a>
-                
-                </div>
-                
-            </div>
-
-            <div class="card item-image" >
-                <h3 id="proyectTitle2"></h3>
-                <div class="image-panel">
-                    <button class="prev-btn"><img src="assets/images/arrow-left.png" alt="Anterior"></button>
-                    <div class="image-slider">
-                        <img src="assets/proyects-images/space1.png" alt="Imagen 1">
-                        <img src="assets/proyects-images/space2.png" alt="Imagen 2">
-                        <img src="assets/proyects-images/space3.png" alt="Imagen 3">
-                    </div>
-                    <button class="next-btn"><img src="assets/images/arrow-right.png" alt="Siguiente"></button>
-                </div>
-                <div class="img-info-box">
-                    <div class="img-info-container">
-                        <img class="img-info" src="https://www.vectorlogo.zone/logos/java/java-icon.svg"/>
-                        <label class="img-info-text" >Java</label>
-                    </div>
-                </div>
-                <p id="proyectDes2">
-                    
-                </p>
-                <div class="containerButtons">
-                    <a href="https://github.com/iOrlandoA/SpaceInvaders" target="_blank" class="animated-button">GitHub</a>
-                </div>
-                
-            </div>
-
-            <div class="card item-image" >
-                <h3 id="proyectTitle3"></h3>
-                <div class="image-panel">
-                    <button class="prev-btn"><img src="assets/images/arrow-left.png" alt="Anterior"></button>
-                    <div class="image-slider">
-                        <img src="assets/proyects-images/Controlador.png" alt="Imagen 1">
-
-                    </div>
-                    <button class="next-btn"><img src="assets/images/arrow-right.png" alt="Siguiente"></button>
-                </div>
-                <div class="img-info-box">
-                    <div class="img-info-container">
-                        <img class="img-info" src="https://www.vectorlogo.zone/logos/dotnet/dotnet-icon.svg"/>
-                        <label class="img-info-text" >.NET</label>
-                    </div>
-                </div>
-                <p id="proyectDes3">
-                    
-                </p>
-                <div class="containerButtons">
-                    <a href="https://github.com/iOrlandoA/SpaceInvaders" target="_blank" class="animated-button">GitHub</a>
-                </div>
-                
-            </div>
-
-            
-
-            
-            <div></div>
+            </article>
+        </template>
+        
+        <!-- Projects Container -->
+        <div class="image-container" id="projectsContainer">
+            <!-- Projects will be dynamically inserted here -->
         </div>
         
     </section>
     <footer>
-        <h2 id="contactTitle"></h2>
+        <h2 id="contactTitle">Contactame</h2>
             <div class="contacto">
                 <a href="https://www.instagram.com/orlando_costa_rica/" target="_blank">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg" class="red-social" alt="Instagram">
@@ -370,7 +120,13 @@
     <script src="switchLanguage.js"></script>
     <script src="BurgerMenu.js"></script>
     <script src="darkMode.js"></script>
-    
+    <script src="assets/js/projectsRenderer.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            window.projectsManager = new ProjectsManager();
+            window.projectsManager.initialize();
+        });
+    </script>
 </body>
 
 </html>

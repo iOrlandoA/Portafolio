@@ -82,6 +82,13 @@ const changeLanguaje =(e)=>{
         e.target.value = "EN";
         localStorage.setItem('language', 'english');
         languageSelected = "english";
+        
+        // Let ProjectsManager handle projects if it exists
+        if (window.projectsManager) {
+            window.projectsManager.currentLang = 'en';
+            window.projectsManager.updateLanguage();
+        }
+        
         fillTexts();
         try {
             writeText();  
@@ -92,6 +99,13 @@ const changeLanguaje =(e)=>{
         e.target.value = "ES";
         localStorage.setItem('language', 'spanish');
         languageSelected = "spanish";
+        
+        // Let ProjectsManager handle projects if it exists
+        if (window.projectsManager) {
+            window.projectsManager.currentLang = 'es';
+            window.projectsManager.updateLanguage();
+        }
+        
         fillTexts();
         try {
             writeText();  

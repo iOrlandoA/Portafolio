@@ -12,6 +12,11 @@ class ProjectsManager {
             this.data = await response.json();
             this.render();
             this.initializeLanguageSwitch();
+            
+            // Initialize image panels after rendering projects
+            if (window.initializeImagePanels) {
+                window.initializeImagePanels();
+            }
         } catch (error) {
             console.error('Error loading projects:', error);
         }
@@ -20,6 +25,11 @@ class ProjectsManager {
     render() {
         this.container.innerHTML = '';
         this.data.projects.forEach(project => this.renderProject(project));
+        
+        // Re-initialize image panels after rendering
+        if (window.initializeImagePanels) {
+            setTimeout(() => window.initializeImagePanels(), 100);
+        }
     }
 
     renderProject(project) {
@@ -28,7 +38,7 @@ class ProjectsManager {
         
         // Set title and description
         article.querySelector('.project-title').textContent = 
-            project[`title${this.currentLang.toUpperCase()}`];
+            this.currentLang === 'es' ? project.titleEs : project.titleEn;
         article.querySelector('.project-description').textContent = 
             project.descriptions[this.currentLang];
         
@@ -50,14 +60,16 @@ class ProjectsManager {
     }
 
     renderImages(slider, project) {
-        // Add images
-        project.images.forEach(src => {
-            const img = document.createElement('img');
-            img.src = src;
-            img.alt = project[`title${this.currentLang.toUpperCase()}`];
-            img.loading = 'lazy';
-            slider.appendChild(img);
-        });
+        // Add images if they exist
+        if (project.images && project.images.length > 0) {
+            project.images.forEach(src => {
+                const img = document.createElement('img');
+                img.src = src;
+                img.alt = this.currentLang === 'es' ? project.titleEs : project.titleEn;
+                img.loading = 'lazy';
+                slider.appendChild(img);
+            });
+        }
 
         // Add video if exists
         if (project.video) {
@@ -104,19 +116,28 @@ class ProjectsManager {
 
     initializeLanguageSwitch() {
         const btn = document.getElementById('buttonLanguage');
-        btn.addEventListener('click', () => {
-            this.currentLang = this.currentLang === 'es' ? 'en' : 'es';
-            btn.textContent = this.currentLang.toUpperCase();
-            this.updateLanguage();
-        });
+        if (btn) {
+            btn.addEventListener('click', () => {
+                this.currentLang = this.currentLang === 'es' ? 'en' : 'es';
+                btn.textContent = this.currentLang.toUpperCase();
+                this.updateLanguage();
+            });
+        }
     }
 
     updateLanguage() {
         // Update titles
-        document.getElementById('proyectsTitle').textContent = 
-            this.data.translations[this.currentLang].proyectsTitle;
-        document.getElementById('contactTitle').textContent = 
-            this.data.translations[this.currentLang].contactTitle;
+        const proyectsTitle = document.getElementById('proyectsTitle');
+        if (proyectsTitle) {
+            proyectsTitle.textContent = 
+                this.data.translations[this.currentLang].proyectsTitle;
+        }
+        
+        const contactTitle = document.getElementById('contactTitle');
+        if (contactTitle) {
+            contactTitle.textContent = 
+                this.data.translations[this.currentLang].contactTitle;
+        }
         
         // Re-render all projects
         this.render();
