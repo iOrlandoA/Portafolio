@@ -225,17 +225,17 @@ header{
     transition: transform 0.3s ease;
 }
 .card p:hover{
-    font-size: 22px;
-    transform: translate(0%, -10px); 
-    max-height: none;
-    width: 91%;
-    border-radius: 5px;
-    position: absolute; 
-    margin-top: 75%;
-    z-index: 999; 
-    background-color: #aaa; 
-    padding: 10px; 
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+    /* font-size: 22px; */
+    /* /~ transform: translate(0%, -10px);  ~/ */
+    /* max-height: none; */
+    /* width: 91%; */
+    /* border-radius: 5px; */
+    /* position: absolute;  */
+    /* margin-top: 75%; */
+    /* z-index: 999;  */
+    /* background-color: #aaa;  */
+    /* padding: 10px;  */
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);  */
 }
 .card h3{
     color: var(--color-cardTexto) !important;
