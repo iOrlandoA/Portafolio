@@ -1,5 +1,6 @@
 const darkModeBtn = document.getElementById("dark_mode");
 const root = document.documentElement;
+const body = document.body;
 
 const diaCardText = "#303030";
 const diaCardBack = "#F4F4F4";
@@ -29,6 +30,7 @@ const switchDark=(darkMode)=>{
     root.style.setProperty('--color-bodyText', nocheBodyText);
     root.style.setProperty('--color-bodyBackGround', nocheBodyBack);
     root.style.setProperty('--background-gradiente', nocheBackgroundGradiente);
+    body.classList.add('dark');
   }else{
     localStorage.setItem('darkMode', false);
     root.style.setProperty('--color-cardTexto', diaCardText);
@@ -36,6 +38,7 @@ const switchDark=(darkMode)=>{
     root.style.setProperty('--color-bodyText', diaBodyText);
     root.style.setProperty('--color-bodyBackGround', diaBodyBack);
     root.style.setProperty('--background-gradiente', diaBackgroundGradiente);
+    body.classList.remove('dark');
   }
   this.darkMode= darkMode;
 }
