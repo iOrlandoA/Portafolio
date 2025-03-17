@@ -106,6 +106,44 @@
         ]
       },
       {
+        "id": "logiflex-sell",
+        "titleEs": "Logiflex Sell Page",
+        "titleEn": "Logiflex Sell Page",
+        "images": [
+          "assets/proyects-images/logiflex-sell/thumbnail.jpg"
+        ],
+        "video": "https://www.youtube.com/embed/pY5XzSd4DBc",
+        "descriptions": {
+          "es": "Desarrollé una plataforma de ventas para Logiflex que permite a los usuarios explorar productos, gestionar su carrito de compras y completar transacciones de manera segura. La interfaz intuitiva facilita la navegación por categorías, búsqueda de productos y visualización de detalles. El sistema incluye gestión de inventario en tiempo real, múltiples métodos de pago y seguimiento de pedidos, todo integrado con el sistema de wallet empresarial.",
+          "en": "I developed a sales platform for Logiflex that allows users to browse products, manage their shopping cart, and complete transactions securely. The intuitive interface makes it easy to navigate categories, search for products, and view details. The system includes real-time inventory management, multiple payment methods, and order tracking, all integrated with the enterprise wallet system."
+        },
+        "technologies": [
+          {
+            "name": "Next.js",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg"
+          },
+          {
+            "name": "NestJs",
+            "icon": "https://www.vectorlogo.zone/logos/nestjs/nestjs-ar21.svg"
+          },
+          {
+            "name": "PostgreSQL",
+            "icon": "https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg"
+          },
+          {
+            "name": "Stripe",
+            "icon": "https://www.vectorlogo.zone/logos/stripe/stripe-ar21.svg"
+          },
+          {
+            "name": "AWS",
+            "icon": "https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-ar21.svg"
+          }
+        ],
+        "links": {
+          "youtube": "https://youtu.be/pY5XzSd4DBc"
+        }
+      },
+      {
         "id": "detector-somnolencia",
         "titleEs": "Detector Somnolencia",
         "titleEn": "Drowsiness Detector",
@@ -148,8 +186,8 @@
         ],
         "video": "https://www.youtube.com/embed/x3PNPz5WuMg",
         "descriptions": {
-          "es": "Lideré el desarrollo de un sistema integral de gestión de monedero electrónico para atender las necesidades de las empresas. Implementé la tecnología Node.js en una arquitectura de wallet empresarial con diversas funcionalidades. Utilicé frameworks modernos como NestJs para el backend y NextJs para el frontend, lo que permitió una arquitectura robusta, escalable y eficiente.",
-          "en": "I led the development of a comprehensive electronic wallet management system to meet business needs. I implemented Node.js technology in an enterprise wallet architecture with various functionalities. I used modern frameworks like NestJs for the backend and NextJs for the frontend, enabling a robust, scalable, and efficient architecture."
+          "es": "Lideré el desarrollo de un sistema integral de gestión de Recursos Humanos diseñado para atender las necesidades de una o varias empresas del sector. Este proyecto incluyó la creación de una Wallet empresarial con diversas funcionalidades, utilizando frameworks modernos como NestJS para el Backend y NextJS para el Frontend, lo que permitió una arquitectura robusta, escalable y eficiente. Implementé una API altamente segura mediante el uso de tokens de acceso, asegurando la protección y privacidad de los datos sensibles. Las funcionalidades abarcan desde capacitaciones, gestión de pagos y proyección de trabajo futuro, hasta manejo de datos de empleados y un sistema de control a través de notificaciones en tiempo real. Además, desarrollé una aplicación móvil para complementar el ecosistema. Como principal desarrollador y líder del proyecto, fui responsable de coordinar equipos, tomar decisiones clave y garantizar el éxito de cada etapa del desarrollo.",
+          "en": "I led the development of a comprehensive Human Resources management system designed to meet the needs of one or multiple companies in the HR sector. This project included the creation of an enterprise wallet with diverse functionalities, leveraging modern frameworks such as NestJS for the Backend and NextJS for the Frontend, enabling a robust, scalable, and efficient architecture. I implemented a highly secure API using access tokens, ensuring the protection and privacy of sensitive data. The system’s features range from training management, payment processing, and future work projections to employee data management and a real-time notification control system. Additionally, a mobile app was developed to complement the ecosystem. As the main developer and project leader, I was responsible for coordinating teams, making key decisions, and ensuring the success of every development stage."
         },
         "technologies": [
           {
